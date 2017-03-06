@@ -3554,7 +3554,7 @@ button.mfp-arrow, button.mfp-close {
     background: rgba(0,0,0,0.7);
     width: 100%;
     height: 100%;
-    border:8px solid #32bfc0;
+    border:6px solid #32bfc0;
     display: none;
     word-wrap: break-word;
 }
@@ -3595,12 +3595,13 @@ button.mfp-arrow, button.mfp-close {
 
 .index-company{
     font-size: 63px;
-    font-family: 'Source Sans Pro Black Italic','Source Sans Pro', sans-serif,Arial;
+    font-family: 'Source Sans Pro Black','Source Sans Pro', sans-serif,Arial;
+    font-style: italic;
     color: #fff;
     width: 50%;
     line-height: 80px;
 }
-.btn-company{
+a.btn-company{
     font-size: 29px;
     font-family: 'Source Sans Pro Semibold','Source Sans Pro', sans-serif,Arial;
     color: #fff;
@@ -3610,7 +3611,7 @@ button.mfp-arrow, button.mfp-close {
     margin-top: 84px;
     cursor: pointer;
 }
-.btn-company:hover{
+a.btn-company:hover{
     background: #32bfc0;
     color: #fff;
 }
