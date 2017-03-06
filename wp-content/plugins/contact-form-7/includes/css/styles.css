@@ -4,8 +4,8 @@ div.wpcf7 {
 }
 
 div.wpcf7-response-output {
-	/*margin: 2em 0.5em 1em;
-	padding: 0.2em 1em;*/
+	margin: 2em 0.5em 1em;
+	padding: 0.2em 1em;
 }
 
 div.wpcf7 .screen-reader-response {
@@ -37,13 +37,13 @@ div.wpcf7-validation-errors {
 
 .wpcf7-form-control-wrap {
 	position: relative;
-	display: block;
 }
 
 span.wpcf7-not-valid-tip {
 	color: #f00;
 	font-size: 1em;
-	display: inline-block;
+	font-weight: normal;
+	display: block;
 }
 
 .use-floating-validation-tip span.wpcf7-not-valid-tip {
