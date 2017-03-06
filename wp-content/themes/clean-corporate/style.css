@@ -3108,7 +3108,8 @@ div.wpcf7 {
 }
 .latest-news-cat{
     color: #000;
-    font-family: 'Source Sans Pro Black Italic', sans-serif, Arial;
+    font-family: 'Source Sans Pro Black', sans-serif, Arial;
+    font-style: italic;
     font-size: 23px;
 }
 
@@ -3277,7 +3278,8 @@ div.wpcf7 {
     color: #fff;
     font-size: 24px;
     line-height: 24px;
-    font-family: 'Source Sans Pro Black Italic',sans-serif,Arial;
+    font-family: 'Source Sans Pro Black',sans-serif,Arial;
+    font-style: italic;
     text-shadow: 2px 2px rgba(0,0,0,.5);
 }
 .news-read-more{
@@ -3563,7 +3565,8 @@ button.mfp-arrow, button.mfp-close {
 }
 .service_title span{
     font-size: 26px;
-    font-family: 'Source Sans Pro Italic','Source Sans Pro',sans-serif, Arial;;
+    font-family: 'Source Sans Pro','Source Sans Pro',sans-serif, Arial;
+    font-style: italic;
     color: #129e95;
     font-weight: normal;
 }
@@ -3582,7 +3585,8 @@ button.mfp-arrow, button.mfp-close {
 }
 .offer-title{
     font-size: 27px;
-    font-family: 'Source Sans Pro Black Italic','Source Sans Pro', sans-serif,Arial;
+    font-family: 'Source Sans Pro Black','Source Sans Pro', sans-serif,Arial;
+    font-style: italic;
     color: #000;
 }
 .offer-description{
