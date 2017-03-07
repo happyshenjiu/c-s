@@ -59,6 +59,8 @@ html {
 
 body {
     margin: 0;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
 }
 
 article,
@@ -3548,6 +3550,7 @@ button.mfp-arrow, button.mfp-close {
     color: #fff;
     font-style: italic;
     font-family: 'Source Sans Pro Black','Source Sans Pro', sans-serif,Arial;
+    font-weight: bold;
     position: absolute;
     top:0;
     left:0;
