@@ -2868,7 +2868,7 @@ div.wpcf7 {
 
 .wpcf7 input {
     width: 100%;
-    float: left;
+    /*float: left;*/
     border-radius: 6px;
     padding: 15px;
     margin-top: 20px;
