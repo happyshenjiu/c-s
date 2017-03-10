@@ -1097,7 +1097,8 @@ a.comment-reply-link {
     margin: 15px 0 0;
 }
 .home .entry-content-wrapper .entry-content {
-    margin: 0;
+    /*margin: 0;*/
+    margin: -15px 0 0 0;
 }
 .entry-footer > span::before{
     display: inline-block;
@@ -2316,6 +2317,7 @@ Top header section*/
 
 .textwidget .alignleft{
     margin: 0;
+    width: 25%;
 }
 #main-slider h3 {
     color: #fff;
@@ -3602,7 +3604,6 @@ button.mfp-arrow, button.mfp-close {
 .index-company{
     font-size: 63px;
     font-family: 'Source Sans Pro Black','Source Sans Pro','Microsoft YaHei', sans-serif,Arial;
-    font-style: italic;
     color: #fff;
     width: 50%;
     line-height: 80px;
@@ -3799,7 +3800,7 @@ article footer.entry-footer{
      }
     .main-navigation ul li a{
         font-size: 15px;
-        padding: 27px 10px;
+        padding: 27px 9px;
     }
     #quick-icons{
         margin-top: 20px;
@@ -3826,7 +3827,7 @@ article footer.entry-footer{
     }
 
     .container {
-        width: 97%;
+        width: 100%;
     }
     .comments-area form#commentform p {
         float: left;
