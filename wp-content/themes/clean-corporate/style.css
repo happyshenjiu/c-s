@@ -52,9 +52,10 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro|Arial+MT');/*引入网页字体*/
 
 html {
-    font-family: sans-serif;
+    font-family: "Adobe Fan Heiti Std B", Arial,sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust:     100%;
+
 }
 
 body {
@@ -286,7 +287,7 @@ textarea {
 
 body {
     color: #727272;
-    font-family: Arial,sans-serif;
+    font-family:"Adobe Fan Heiti Std B", Arial,sans-serif;
     font-size: 15px;
     font-weight: 400;
     /*letter-spacing: 0.2px;*/
@@ -309,7 +310,7 @@ h4,
 h5,
 h6{
    color:#222;
-   font-family:"Roboto",sans-serif;
+   font-family:"Roboto","Adobe Fan Heiti Std B",sans-serif;
    font-weight: normal;
 }
 
@@ -548,7 +549,7 @@ input[type="date"]{
 select {
     /*width: 100%;*/
     padding:10px 5px;
-    font-family: 'Source Sans Pro', sans-serif , Arial;
+    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif , Arial;
     font-size: 22px;
 }
 
@@ -661,7 +662,7 @@ a:active {
     padding:22px;
     position: relative;
     z-index: 99;
-    font-family: Arial, sans-serif;
+    font-family: "Adobe Fan Heiti Std B", Arial, sans-serif;
     font-weight: bold;
 }
 .main-navigation ul ul a {
@@ -1501,7 +1502,8 @@ object {
 
 .container {
     /*width: 1200px;*/
-    width: 80%;
+    /*width: 80%;*/
+    width:66.2%;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -1681,7 +1683,7 @@ Top header section*/
 }
 #site-identity .site-title > a {
     color: #504b49;
-    font-family: "CHei2HK Xbold","Microsoft YaHei", Arial, sans-serif;
+    font-family: "CHei2HK Xbold","Adobe Fan Heiti Std B", Arial, sans-serif;
     font-size: 16px;
 }
 
@@ -1860,14 +1862,13 @@ Top header section*/
     text-align: center;
     z-index: 99;
 }
-#custom-header .page-title {
+#custom-header .page-title,h1.page-title {
     color: #ffffff;
-    font-family: "Arial MT";
     font-size: 57px;
-    font-style: italic;
     font-weight: bold;
     line-height: 1;
     text-align: left;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.8);
 }
 
 
@@ -2297,7 +2298,7 @@ Top header section*/
     max-width: 280px;
     margin-top: 6%;
     color: #fff;
-    font-family: Arial, "Bitstream Vera Sans", sans-serif;
+    font-family:"Adobe Fan Heiti Std B", Arial, "Bitstream Vera Sans", sans-serif;
     font-size: 20px;
     font-style: italic;
     margin-bottom: 15px;
@@ -2310,7 +2311,8 @@ Top header section*/
 #main-slider h3 a {
     color:#fff;
     font-size: 69px;
-    font-family: 'Source Sans Pro Black','Source Sans Pro','Microsoft YaHei', sans-serif,Arial;
+    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
+    /*font-family: 'Source Sans Pro Black','Source Sans Pro',"Microsoft YaHei", sans-serif,Arial;*/
     font-weight: bold;
     text-shadow: 5px 5px 7px rgba(0,0,0,.6);
 }
@@ -2415,7 +2417,8 @@ Top header section*/
     float: left;
     padding-left: 15px;
     padding-right: 15px;
-    width: 70%;
+    /*width: 70%;*/
+    width: 60%;
 }
 
 #content {
@@ -2437,7 +2440,8 @@ Top header section*/
 ## Sidebar Style By WEN Themes
 --------------------------------------------------------------*/
 .sidebar {
-    width: 30%;
+    /*width: 30%;*/
+    width: 36.5%;
     padding-left: 15px;
     padding-right: 15px;
     float: left;
@@ -2461,8 +2465,8 @@ Top header section*/
 
 .sidebar .widget-title {
     border-bottom: 2px solid #8f8f8f;
-    font-family: "Roboto",sans-serif;
-    font-size: 20px;
+    font-family: "Roboto","Adobe Fan Heiti Std B",sans-serif;
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 20px;
     padding-bottom: 10px;
@@ -2497,7 +2501,7 @@ Top header section*/
     top: 8px;
 }
 .sidebar a, .sidebar a:visited {
-    color: #001837;
+    /*color: #001837;*/
 }
 .sidebar a:hover,.sidebar a:active {
    color: #4fc3dd;
@@ -2641,7 +2645,7 @@ Top header section*/
 }
 #footer-widgets .widget-title {
     /*border-bottom: 1px solid #aaaaaa;*/
-    font-family: Arial;
+    font-family: "Adobe Fan Heiti Std B",Arial;
     font-size: 18pt;
     font-weight: bold;
     color: #ffffff;
@@ -2653,7 +2657,7 @@ Top header section*/
 }
 #footer-widgets .textwidget{
     font-size: 14pt;
-    font-family: Arial;
+    font-family: "Adobe Fan Heiti Std B",Arial;
 }
 #footer-widgets ul {
     list-style: none;
@@ -3117,7 +3121,7 @@ div.wpcf7 {
 }
 .latest-news-cat{
     color: #000;
-    font-family: 'Source Sans Pro Black', sans-serif, Arial;
+    font-family: 'Source Sans Pro Black',"Adobe Fan Heiti Std B", sans-serif, Arial;
     font-style: italic;
     font-size: 23px;
 }
@@ -3287,7 +3291,7 @@ div.wpcf7 {
     color: #fff;
     font-size: 24px;
     line-height: 24px;
-    font-family: 'Source Sans Pro Black',sans-serif,Arial;
+    font-family: 'Source Sans Pro Black',"Adobe Fan Heiti Std B",sans-serif,Arial;
     font-style: italic;
     text-shadow: 2px 2px rgba(0,0,0,.5);
 }
@@ -3295,7 +3299,7 @@ div.wpcf7 {
     margin-top: 35px;
 }
 .news-read-more a{
-    font-family: 'Source Sans Pro' ,sans-serif, Arial;
+    font-family: 'Source Sans Pro' ,"Adobe Fan Heiti Std B",sans-serif, Arial;
     font-size: 18px;
     background: #32bebf;
     color: #fff;
@@ -3306,7 +3310,7 @@ div.wpcf7 {
     background: #1b7ab5;
 }
 .latest-news-summary{
-    font-family: 'Source Sans Pro' ,sans-serif, Arial;
+    font-family: 'Source Sans Pro' ,"Adobe Fan Heiti Std B",sans-serif, Arial;
     font-size: 19px;
 }
 
@@ -3414,7 +3418,7 @@ div.wpcf7 {
 }
 .clean_corporate_widget_recent_posts .recent-posts-title a {
     color: #000;
-    font-size: 22px;
+    font-size: 18px;
 }
 .clean_corporate_widget_recent_posts .recent-posts-title a:hover{
     color: #32bfc0;
@@ -3563,7 +3567,7 @@ button.mfp-arrow, button.mfp-close {
     line-height: 62px;
     color: #fff;
     font-style: italic;
-    font-family: 'Source Sans Pro Black','Source Sans Pro', sans-serif,Arial;
+    font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
     font-weight: bold;
     position: absolute;
     top:0;
@@ -3582,17 +3586,17 @@ button.mfp-arrow, button.mfp-close {
 }
 .service_title span{
     font-size: 26px;
-    font-family: 'Source Sans Pro','Source Sans Pro',sans-serif, Arial;
+    font-family: 'Source Sans Pro','Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif, Arial;
     font-style: italic;
     color: #129e95;
     font-weight: normal;
 }
 
 .blk{
-    font-size: 69px;
-    font-family: 'Source Sans Pro Black','Source Sans Pro', sans-serif,Arial;
-    font-style: italic;
-    color: #000;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
+    color: #32bebf;
 }
 .blk span{
     color: #14928b;
@@ -3602,13 +3606,13 @@ button.mfp-arrow, button.mfp-close {
 }
 .offer-title{
     font-size: 27px;
-    font-family: 'Source Sans Pro Black','Source Sans Pro', sans-serif,Arial;
+    font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
     font-style: italic;
     color: #000;
 }
 .offer-description{
     font-size: 20px;
-    font-family: 'Source Sans Pro', sans-serif,Arial;
+    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
     color: #666;
     word-wrap: break-word;
     line-height: 24px;
@@ -3616,7 +3620,7 @@ button.mfp-arrow, button.mfp-close {
 
 .index-company{
     font-size: 63px;
-    font-family: 'Source Sans Pro Black','Source Sans Pro','Microsoft YaHei', sans-serif,Arial;
+    font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
     color: #fff;
     width: 50%;
     line-height: 80px;
@@ -3624,7 +3628,7 @@ button.mfp-arrow, button.mfp-close {
 }
 a.btn-company{
     font-size: 24px;
-    /*font-family: 'Source Sans Pro Semibold','Source Sans Pro', sans-serif,Arial;*/
+    font-family: 'Source Sans Pro Semibold','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
     color: #fff;
     border:5px solid #32bfc0;
     padding: 8px 60px;
@@ -3644,7 +3648,7 @@ a.btn-company:hover{
     color: #fff;
 }
 .contact-blk{
-    font-family: 'Source Sans Pro',sans-serif ,Arial;
+    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;
     font-style: italic;
     font-weight: bold;
     font-size: 28px;
@@ -3653,7 +3657,7 @@ a.btn-company:hover{
     margin-top: 33px;
 }
 .blk-info{
-    font-family: 'Source Sans Pro',sans-serif ,Arial;
+    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;
     font-size: 21px;
     color: #666;
 }
@@ -3677,13 +3681,12 @@ a.btn-company:hover{
 .link-cantact{
     display: block;
     background: #32bfc0;
-    /*padding: 20px 15px;*/
+    padding: 35px 0;
     color: #fff;
     /*font-size: 58px;*/
     font-size: 32px;
     text-align: center;
-    font-family: 'Source Sans Pro Black','Source Sans Pro', sans-serif,Arial;
-    /*font-weight: bold;*/
+    font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
 }
 .link-cantact p{
     font-size: 16px;
@@ -3691,10 +3694,14 @@ a.btn-company:hover{
 a.btn-black{
     /*background: #21242b;*/
     color: #fff;
-    font-family: 'Source Sans Pro Semibold',sans-serif ,Arial;
-    font-size: 20px;
-    padding: 15px 45px;
+    font-family: 'Source Sans Pro Semibold',"Adobe Fan Heiti Std B",sans-serif ,Arial;
+    font-size: 18px;
+    padding: 4px 30px;
     font-style: normal;
+    border: 1px solid #fff;
+    margin-top: 15px;
+    display: inline-block;
+    text-shadow: 1px 1px rgba(0,0,0,0.4);
 }
 a.btn-black:after{
     content: "";
@@ -3703,19 +3710,17 @@ a.btn-black:after{
     margin-left: 10px;
 }
 a.btn-black:hover{
-    background: #1b79b6;
+    border: 1px solid #1b7ab5;
 }
 
 .panel-grid-cell .widget-title{
-    font-family: 'Source Sans Pro Semibold',sans-serif ,Arial;
-    font-style: italic;
-    font-size: 28px;
+    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif ;
+    font-size: 26px;
     color:#000;
     border-bottom: 3px solid #32bfc0;
-    padding-left: 20px;
 }
 .recent-posts-text-wrap{
-    padding-left: 20px;
+    /*padding-left: 20px;*/
 }
 
 .menu-service-en-container ul ,
@@ -3730,7 +3735,7 @@ a.btn-black:hover{
     list-style: none;
     background: #21242b;
     border-bottom: 1px solid #35373d;
-    font-family: 'Source Sans Pro Semibold',sans-serif ,Arial;
+    font-family: 'Source Sans Pro Semibold',"Adobe Fan Heiti Std B",sans-serif ,Arial;
     font-size: 27px;
     position: relative;
 }
@@ -3779,7 +3784,7 @@ a.btn-black:hover{
 .menu-function-zh-container ul li a{
     color: #666;
     padding-left: 20px;
-    font-family: 'Source Sans Pro',sans-serif ,Arial;
+    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;
     font-size: 23px;
 }
 

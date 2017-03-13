@@ -452,8 +452,6 @@ if ( ! function_exists( 'clean_corporate_add_custom_header' ) ) :
 		if ( true !== $flag_apply_custom_header ) {
 			return;
 		}
-//		显示特色图片
-//		do_action( 'clean_corporate_single_image' );
 
 //		$img_url = "http://localhost/wp-content/uploads/2017/02/WareHouse_Services-1024x146.png";
 
@@ -481,7 +479,8 @@ if ( ! function_exists( 'clean_corporate_add_custom_header' ) ) :
 	}
 endif;
 
-add_action( 'clean_corporate_action_before_content', 'clean_corporate_add_custom_header', 6 );
+//注释内页banner
+//add_action( 'clean_corporate_action_before_content', 'clean_corporate_add_custom_header', 6 );
 
 if ( ! function_exists( 'clean_corporate_add_title_in_custom_header' ) ) :
 

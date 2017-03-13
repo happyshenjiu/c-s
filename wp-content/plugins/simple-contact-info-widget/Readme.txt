@@ -1,7 +1,7 @@
 === Contact Info Widget ===
 Contributors: riotweb
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=3EKUU6CJPXMJQ
-Tags: widgets, widget, contact info, contact, info, footer, sidebar, company, phone, address, email
+Tags: widgets, widget, contact info, contact, info, footer, sidebar, company, phone, address, email, icons
 Requires at least: 4.0
 Tested up to: 4.7
 License: GPLv2
@@ -30,6 +30,7 @@ This plugin features possibility to add:
 * Mobile
 * Fax
 * Website
+* 27 Icon effects
 * Icon color
 * Font color
 * Social Media / Skype - Facebook - Twitter
@@ -45,6 +46,10 @@ Upload the .zip file with a FTP program in the folder wp-content/plugins or uplo
 
 The widget addapts to the themes widget position.
 
+**How to translate this plugin?**
+
+Place your language file from /languages into wp-content/languages/plugins.
+
 **The plugin is not working on my website how come?**
 
 1. Check if it's enabled.
@@ -56,6 +61,16 @@ The widget addapts to the themes widget position.
 2. Back-end view of the widget.
 
 == Changelog ==
+
+= 2.6.1 =
+
+* Small Fix
+
+= 2.6 =
+
+* NEW: 27 different icon effects
+* Small fixes
+* Translation ready
 
 = 2.5.1 =
 

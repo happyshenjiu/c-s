@@ -129,7 +129,7 @@ class SiteOrigin_Panels_Settings {
 		$defaults['mobile-width'] = 780;
 		$defaults['margin-bottom'] = 0;
 		$defaults['margin-bottom-last-row'] = false;
-		$defaults['margin-sides'] = 30;
+		$defaults['margin-sides'] = 0;
 		$defaults['full-width-container'] = 'body';
 
 		// Content fields
