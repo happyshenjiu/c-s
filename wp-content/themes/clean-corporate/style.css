@@ -3516,6 +3516,7 @@ button.mfp-arrow, button.mfp-close {
 }
 .header-social-wrapper a span{
     display: inline-block;
+    vertical-align: middle;
 }
 .overlay{
     position: absolute;
@@ -4155,6 +4156,7 @@ article footer.entry-footer{
     .header-social-wrapper a{
         margin-right: 10px;
         font-size: 12px;
+        margin-bottom: 12px;
     }
     #featured-slider .overlay-disabled .cycle-caption{
         padding: 15px;
