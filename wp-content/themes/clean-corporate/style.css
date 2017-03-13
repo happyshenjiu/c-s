@@ -1557,6 +1557,7 @@ object {
     float: right;
     margin-top: 2px;
     padding: 12px 0;
+    line-height: 1;
 }
 .header-social-wrapper .clean_corporate_widget_social li {
     margin-bottom: 0;
@@ -2310,9 +2311,7 @@ Top header section*/
     font-size: 69px;
     font-family: 'Source Sans Pro Black','Source Sans Pro','Microsoft YaHei', sans-serif,Arial;
     font-weight: bold;
-    text-shadow: 5px 7px 10px rgba(0,0,0,.6);;
-    -webkit-text-shadow: 5px 7px 21px rgba(0,0,0,.6);
-    -moz-text-shadow: 5px 7px 21px rgba(0,0,0,.6);
+    text-shadow: 5px 5px 7px rgba(0,0,0,.6);
 }
 
 .textwidget .alignleft{
@@ -2326,11 +2325,12 @@ Top header section*/
     /*border: 1px solid rgba(255, 255, 255, 0.5);*/
     background: #32bfc0;
     color: #ffffff;
-    font-size: 15px;
+    font-size: 24px;
     line-height: 1.5;
-    margin: 4% 10px 0 0;
-    padding: 8px 42px;
-    text-transform: uppercase;
+    margin: 40% 10px 0 0;
+    padding: 8px 60px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+    /*text-transform: uppercase;*/
 }
 .custom-button::after {
     content: "";
@@ -2641,7 +2641,7 @@ Top header section*/
 #footer-widgets .widget-title {
     /*border-bottom: 1px solid #aaaaaa;*/
     font-family: Arial;
-    font-size: 28px;
+    font-size: 18pt;
     font-weight: bold;
     color: #ffffff;
     display: inline-block;
@@ -2651,7 +2651,7 @@ Top header section*/
     text-transform: Uppercase;
 }
 #footer-widgets .textwidget{
-    font-size: 20px;
+    font-size: 14pt;
     font-family: Arial;
 }
 #footer-widgets ul {
@@ -2662,7 +2662,7 @@ Top header section*/
 
 #footer-widgets ul li {
     position: relative;
-    font-size: 19px;
+    font-size: 14pt;
     margin-bottom: 20px;
     line-height: 20px;
 }
@@ -2681,7 +2681,7 @@ Top header section*/
 #footer-widgets ,
 #footer-widgets a {
     color: #dddddd;
-    font-size: 21px;
+    font-size: 14pt;
 }
 #footer-widgets li:hover a {
     color: #14928b;
@@ -2732,6 +2732,10 @@ Top header section*/
 
 .footer-widget-area .widget {
     margin-top: 15px;
+}
+.widget_polylang li{
+    width: 30%;
+    float: left;
 }
 
 
@@ -3485,11 +3489,13 @@ button.mfp-arrow, button.mfp-close {
 }
 
 .quick-icon{
-    height: 18px;
-    width: 18px;
+    height: 28px;
+    width: 28px;
+    /*width: 18px;*/
+    /*height: 18px;*/
     display: inline-block;
     margin-right: 8px;
-    vertical-align: middle;
+    vertical-align:bottom;
 }
 .quick-email{
     background: url("img/quick-email.png") no-repeat center;
@@ -3506,6 +3512,10 @@ button.mfp-arrow, button.mfp-close {
 .header-social-wrapper a{
     color: #7d7f82;
     margin-right: 40px;
+    display: inline-block;
+}
+.header-social-wrapper a span{
+    display: inline-block;
 }
 .overlay{
     position: absolute;
@@ -3607,16 +3617,24 @@ button.mfp-arrow, button.mfp-close {
     color: #fff;
     width: 50%;
     line-height: 80px;
+    text-shadow: 2px 1px 2px rgba(0,0,0,0.8);
 }
 a.btn-company{
-    font-size: 29px;
-    font-family: 'Source Sans Pro Semibold','Source Sans Pro', sans-serif,Arial;
+    font-size: 24px;
+    /*font-family: 'Source Sans Pro Semibold','Source Sans Pro', sans-serif,Arial;*/
     color: #fff;
-    border:4px solid #32bfc0;
+    border:5px solid #32bfc0;
     padding: 8px 60px;
     display: inline-block;
-    margin-top: 84px;
+    margin-top: 32px;
     cursor: pointer;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
+}
+a.btn-company:after{
+    content: "";
+    display: inline-block;
+    font-family: FontAwesome;
+    margin-left: 10px;
 }
 a.btn-company:hover{
     background: #32bfc0;
@@ -3656,21 +3674,30 @@ a.btn-company:hover{
 .link-cantact{
     display: block;
     background: #32bfc0;
-    padding: 20px 15px;
+    /*padding: 20px 15px;*/
     color: #fff;
-    font-size: 58px;
+    /*font-size: 58px;*/
+    font-size: 32px;
+    text-align: center;
     font-family: 'Source Sans Pro Black','Source Sans Pro', sans-serif,Arial;
-    font-style: italic;
-    font-weight: bold;
-    line-height: 70px;
+    /*font-weight: bold;*/
+}
+.link-cantact p{
+    font-size: 16px;
 }
 a.btn-black{
-    background: #21242b;
+    /*background: #21242b;*/
     color: #fff;
     font-family: 'Source Sans Pro Semibold',sans-serif ,Arial;
     font-size: 20px;
     padding: 15px 45px;
     font-style: normal;
+}
+a.btn-black:after{
+    content: "";
+    display: inline-block;
+    font-family: FontAwesome;
+    margin-left: 10px;
 }
 a.btn-black:hover{
     background: #1b79b6;
