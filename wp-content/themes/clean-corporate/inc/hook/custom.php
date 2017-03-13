@@ -362,7 +362,8 @@ if ( ! function_exists( 'clean_corporate_add_breadcrumb' ) ) :
 
 endif;
 
-add_action( 'clean_corporate_action_before_content', 'clean_corporate_add_breadcrumb' , 7 );
+//注释 路径breadcrumb在各页面显示
+//add_action( 'clean_corporate_action_before_content', 'clean_corporate_add_breadcrumb' , 7 );
 
 
 if ( ! function_exists( 'clean_corporate_footer_goto_top' ) ) :

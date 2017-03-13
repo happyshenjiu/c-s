@@ -2799,9 +2799,11 @@ Top header section*/
 
 #breadcrumb,#breadcrumb {
     background: #fff ;
-    padding: 15px 0;
+    /*padding: 15px 0;*/
 }
-
+#breadcrumb,#breadcrumb ul{
+    margin: 0;
+}
 #breadcrumb .container > div {
     overflow: hidden;
 }
@@ -2827,7 +2829,7 @@ Top header section*/
     padding: 0;
 }
  #breadcrumb {
-    color: #4fc3de;
+    /*color: #4fc3de;*/
 }
 #breadcrumb a,
 #breadcrumb .breadcrumb-trail li::after {
@@ -2836,7 +2838,7 @@ Top header section*/
 
 #breadcrumb a:hover,
 #breadcrumb .breadcrumb-trail li:hover::after {
-    color:#4fc3de;
+    /*color:#4fc3de;*/
 }
 /*Error 404 Page*/
 
