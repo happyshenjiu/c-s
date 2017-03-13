@@ -127,7 +127,7 @@ class SiteOrigin_Panels_Settings {
 		$defaults['tablet-layout'] = false;
 		$defaults['tablet-width'] = 1024;
 		$defaults['mobile-width'] = 780;
-		$defaults['margin-bottom'] = 30;
+		$defaults['margin-bottom'] = 0;
 		$defaults['margin-bottom-last-row'] = false;
 		$defaults['margin-sides'] = 30;
 		$defaults['full-width-container'] = 'body';

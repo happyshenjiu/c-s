@@ -635,7 +635,7 @@ if ( ! function_exists( 'clean_corporate_header_top_content' ) ) :
 					
 						<a href="mailto:support@cssecurity.com.hk"><span class="quick-icon quick-email"></span><span>support@cssecurity.com.hk</span></a>
 						<a href="tel:(+852) 2911 9500"><span class="quick-icon quick-call"></span><span>(+852) 2911 9500</span></a>
-						<a href="#"><span class="quick-icon quick-adrr"></span><span>香港新界葵涌葵榮路13號錦濱工業大廈4樓B室<br/>Room 903, 9/F, Cheung Sha Wan Plaza Phase I, 833 Cheung Sha Wan Road, Kowloon</span></a>
+						<a href="#"><span class="quick-icon quick-adrr"></span><span class="top-addr">香港新界葵涌葵榮路13號錦濱工業大廈4樓B室<br/>Room 903, 9/F, Cheung Sha Wan Plaza Phase I, 833 Cheung Sha Wan Road, Kowloon</span></a>
 					
 				</div><!-- .header-social-wrapper -->
 <!--				注释顶部搜索框，移到导航后面-->
