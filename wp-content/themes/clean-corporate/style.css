@@ -4198,7 +4198,9 @@ article footer.entry-footer{
 }
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width:767px) {
-
+    .home .entry-content-wrapper .entry-content{
+        margin: -25px 0 0 0;
+    }
 
     .service_list{
         flex-direction: column;
@@ -4299,7 +4301,7 @@ article footer.entry-footer{
     }
     #primary article.hentry {
         overflow: hidden;
-        padding: 10px;
+        /*padding: 10px;*/
     }
 
 
@@ -4498,7 +4500,9 @@ article footer.entry-footer{
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:479px) {
-
+    .home .entry-content-wrapper .entry-content{
+        margin: -15px 0 0 0;
+    }
 
     .site-branding {
         text-align: center;
