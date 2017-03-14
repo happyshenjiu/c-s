@@ -3918,6 +3918,16 @@ a.btn-black:hover{
     color: #cbcbcb;
 }
 
+ul.zhixun-lc{
+    clear: both;
+    margin: 0;
+}
+ul.zhixun-lc li{
+    float: left;
+    width: 20%;
+    text-align: center;
+    list-style: none;
+}
 
 
 
