@@ -188,6 +188,7 @@ textarea {
     margin: 0;
     outline: none;
     resize: none;
+    font-family: "Adobe Fan Heiti Std B", Arial,sans-serif;
 }
 
 button {
@@ -3665,9 +3666,14 @@ a.btn-company:hover{
     color: #666;
 }
 .coantact-blk-small{
-    font-family:'Source Sans Pro Semibold',sans-serif ,Arial;
+    font-family:'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;
     font-size:22px;
     color:#000;
+    margin-left: 30px;
+}
+.cantact-hours{
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
 .cantact-hours li{
     list-style: none;
@@ -3927,6 +3933,17 @@ ul.zhixun-lc li{
     width: 20%;
     text-align: center;
     list-style: none;
+}
+
+.contact-list{
+    clear: both;
+    margin: 0;
+}
+.contact-list li{
+    list-style: none;
+    width: 28%;
+    margin-right: 2%;
+    float: left;
 }
 
 
