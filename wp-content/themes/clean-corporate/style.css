@@ -3721,9 +3721,11 @@ a.btn-black:hover{
     font-size: 26px;
     color:#000;
     border-bottom: 3px solid #32bfc0;
+    margin-left: 30px;
 }
 .recent-posts-text-wrap{
     /*padding-left: 20px;*/
+    margin-left: 30px;
 }
 
 .menu-service-en-container ul ,
@@ -3778,27 +3780,113 @@ a.btn-black:hover{
     color: #32bfc0;
 }
 
+.menu-function-en-container ul,
+.menu-function-zh-container ul{
+    margin-left: 30px;
+    clear: both;
+}
 .menu-function-en-container ul li,
-.menu-function-zh-container ul li{
+.menu-function-zh-container ul li,
+.menu-function-cn-container ul li{
     list-style: none;
-    margin: 10px 0 15px;
+    margin: 5px 0;
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+}
+.menu-function-en-container ul li:nth-child(1),
+.menu-function-zh-container ul li:nth-child(1),
+.menu-function-cn-container ul li:nth-child(1){
+    background: url("img/icon-solution-01.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(2),
+.menu-function-zh-container ul li:nth-child(2),
+.menu-function-cn-container ul li:nth-child(2){
+    background: url("img/icon-solution-02.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(3),
+.menu-function-zh-container ul li:nth-child(3),
+.menu-function-cn-container ul li:nth-child(3){
+    background: url("img/icon-solution-03.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(4),
+.menu-function-zh-container ul li:nth-child(4),
+.menu-function-cn-container ul li:nth-child(4){
+    background: url("img/icon-solution-04.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(5),
+.menu-function-zh-container ul li:nth-child(5),
+.menu-function-cn-container ul li:nth-child(5){
+    background: url("img/icon-solution-05.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(6),
+.menu-function-zh-container ul li:nth-child(6),
+.menu-function-cn-container ul li:nth-child(6){
+    background: url("img/icon-solution-06.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(7),
+.menu-function-zh-container ul li:nth-child(7),
+.menu-function-cn-container ul li:nth-child(7){
+    background: url("img/icon-solution-07.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(8),
+.menu-function-zh-container ul li:nth-child(8),
+.menu-function-cn-container ul li:nth-child(8){
+    background: url("img/icon-solution-08.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(9),
+.menu-function-zh-container ul li:nth-child(9),
+.menu-function-cn-container ul li:nth-child(9){
+    background: url("img/icon-solution-09.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(10),
+.menu-function-zh-container ul li:nth-child(10),
+.menu-function-cn-container ul li:nth-child(10){
+    background: url("img/icon-solution-10.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(11),
+.menu-function-zh-container ul li:nth-child(11),
+.menu-function-cn-container ul li:nth-child(11){
+    background: url("img/icon-solution-11.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(12),
+.menu-function-zh-container ul li:nth-child(12),
+.menu-function-cn-container ul li:nth-child(12){
+    background: url("img/icon-solution-12.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(13),
+.menu-function-zh-container ul li:nth-child(13),
+.menu-function-cn-container ul li:nth-child(13){
+    background: url("img/icon-solution-13.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(14),
+.menu-function-zh-container ul li:nth-child(14),
+.menu-function-cn-container ul li:nth-child(14){
+    background: url("img/icon-solution-14.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(15),
+.menu-function-zh-container ul li:nth-child(15),
+.menu-function-cn-container ul li:nth-child(15){
+    background: url("img/icon-solution-15.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(16),
+.menu-function-zh-container ul li:nth-child(16),
+.menu-function-cn-container ul li:nth-child(16){
+    background: url("img/icon-solution-16.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(17),
+.menu-function-zh-container ul li:nth-child(17),
+.menu-function-cn-container ul li:nth-child(17){
+    background: url("img/icon-solution-17.png") no-repeat top left;
 }
 .menu-function-en-container ul li a,
-.menu-function-zh-container ul li a{
+.menu-function-zh-container ul li a,
+.menu-function-cn-container ul li a{
     color: #666;
     padding-left: 20px;
     font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;
-    font-size: 23px;
+    font-size: 20px;
 }
-
-/*article .wp-post-image{
-    float: left;;
-    width: 20%;
-    margin-right: 2%;
-}
-article footer.entry-footer{
-    display: none;
-}*/
 
 
 
