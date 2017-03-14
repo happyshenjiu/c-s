@@ -3888,6 +3888,37 @@ a.btn-black:hover{
     font-size: 20px;
 }
 
+.xiezhu input{
+    border-radius: 0;
+    background: transparent;
+    border: 1px solid #339592;
+    padding: 7px;
+    color: #cbcbcb;
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+.xiezhu textarea{
+    border-radius: 0;
+    background: transparent;
+    border: 1px solid #339592;
+    padding: 7px;
+    color: #cbcbcb;
+}
+.xiezhu input.wpcf7-submit{
+    border-radius: 0;
+    background: #44b0ac;
+    padding: 7px;
+    text-align: center;
+    color: #227a78;
+}
+.xiezhu input.wpcf7-submit:hover{
+    background: transparent;
+    border: 1px solid #339592;
+    color: #cbcbcb;
+}
+
+
 
 
 /*--------------------------------------------------------------

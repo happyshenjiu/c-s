@@ -45,6 +45,9 @@ span.wpcf7-not-valid-tip {
 	font-weight: normal;
 	display: block;
 }
+.xiezhu span.wpcf7-not-valid-tip{
+	display: inline-block;
+}
 
 .use-floating-validation-tip span.wpcf7-not-valid-tip {
 	position: absolute;
