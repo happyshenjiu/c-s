@@ -2465,13 +2465,12 @@ Top header section*/
 
 
 .sidebar .widget-title {
-    border-bottom: 2px solid #8f8f8f;
-    font-family: "Roboto","Adobe Fan Heiti Std B",sans-serif;
-    font-size: 26px;
-    font-weight: bold;
-    margin-bottom: 20px;
-    padding-bottom: 10px;
     position: relative;
+    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif ;
+    font-size: 26px;
+    color:#000;
+    border-bottom: 3px solid #32bfc0;
+    margin-left: 30px;
 }
 
 .sidebar ul {

@@ -156,6 +156,7 @@ if ( ! function_exists( 'clean_corporate_render_featured_slider' ) ) :
 		);
 		if ( $featured_slider_enable_caption ) {
 //			$slide_data['caption-template'] = '<h3><a href="{{url}}" target="{{target}}">{{title}}</a></h3><p>{{excerpt}}</p>{{buttons}}';
+			
 //			注释首页广告部分显示页面简介
 			$slide_data['caption-template'] = '<h3><a href="{{url}}" target="{{target}}">{{title}}</a></h3>{{buttons}}';
 		}
