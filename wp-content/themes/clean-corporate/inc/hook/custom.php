@@ -482,6 +482,10 @@ endif;
 
 //注释内页banner
 //add_action( 'clean_corporate_action_before_content', 'clean_corporate_add_custom_header', 6 );
+//添加分类页显示banner
+/*if ( is_category() ){
+	add_action( 'clean_corporate_action_before_content', 'clean_corporate_add_custom_header', 6 );
+}*/
 
 if ( ! function_exists( 'clean_corporate_add_title_in_custom_header' ) ) :
 
