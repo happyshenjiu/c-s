@@ -659,12 +659,11 @@ a:active {
     border: medium none;
     color: #5d5d5d;
     display: block;
-    font-size: 17px;
-    padding:22px;
+    font-size: 18px;
+    padding:22px 38px;
     position: relative;
     z-index: 99;
     font-family: "Adobe Fan Heiti Std B", Arial, sans-serif;
-    font-weight: bold;
 }
 .main-navigation ul ul a {
     border-bottom: 1px solid #2a9495;
@@ -2265,7 +2264,7 @@ Top header section*/
 #main-slider .cycle-caption {
     /*background: rgba(0, 0, 0,0.7) none repeat scroll 0 0;*/
     height: auto;
-    left:10%;
+    left:16.9%;
     overflow: hidden;
     padding: 20px;
     position: absolute;
@@ -2310,7 +2309,8 @@ Top header section*/
 
 #main-slider h3 a {
     color:#fff;
-    font-size: 69px;
+    /*font-size: 69px;*/
+    font-size: 84px;
     font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
     /*font-family: 'Source Sans Pro Black','Source Sans Pro',"Microsoft YaHei", sans-serif,Arial;*/
     font-weight: bold;
@@ -2644,29 +2644,35 @@ Top header section*/
 }
 #footer-widgets .widget-title {
     /*border-bottom: 1px solid #aaaaaa;*/
-    font-family: "Adobe Fan Heiti Std B",Arial;
-    font-size: 18pt;
+    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
+    font-size: 18px;
     font-weight: bold;
     color: #ffffff;
     display: inline-block;
-    margin-bottom: 20px;
+    margin-bottom: 18px;
     /*padding-bottom: 15px;*/
     text-align: left;
     text-transform: Uppercase;
 }
 #footer-widgets .textwidget{
-    font-size: 14pt;
-    font-family: "Adobe Fan Heiti Std B",Arial;
+    font-size: 16px;
+    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
+}
+#sow-editor-3 .textwidget{
+    font-size: 15px;
+    margin-left: 30px;
 }
 #footer-widgets ul {
     list-style: none;
     margin: 0;
-
 }
 
 #footer-widgets ul li {
     position: relative;
-    font-size: 14pt;
+    color: #dddddd;
+    font-size: 16px;
+    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
+    font-weight: lighter;
     margin-bottom: 20px;
     line-height: 20px;
 }
@@ -2685,7 +2691,9 @@ Top header section*/
 #footer-widgets ,
 #footer-widgets a {
     color: #dddddd;
-    font-size: 14pt;
+    font-size: 16px;
+    font-family: "Microsoft JhengHei","Adobe Fan Heiti Std B",Arial,sans-serif;
+    font-weight: lighter;
 }
 #footer-widgets li:hover a {
     color: #14928b;
@@ -2699,6 +2707,12 @@ Top header section*/
     left: 0;
     position: absolute;
     top: 7px;
+}
+#footer-widgets  ul.fa-ul{
+    margin-left: 30px;
+}
+#footer-widgets  ul.fa-ul .fa-li{
+    font-size: 20px;
 }
 #footer-widgets .footer-widget-area {
     float: left;
@@ -2738,8 +2752,13 @@ Top header section*/
     margin-top: 15px;
 }
 .widget_polylang li{
-    width: 30%;
+    width: 17.5%;
     float: left;
+    border-right: 1px solid #45474d;
+    margin-right: 9.5%;
+}
+.widget_polylang li:last-child{
+    border: 0;
 }
 
 
