@@ -1010,7 +1010,7 @@ a.comment-reply-link {
     position: relative;
 }
 
-#sidebar-front-page-widget-area .widget-subtitle {
+.widget-subtitle {
     color: #727272;
     font-size: 17px;
     font-weight: 400;
@@ -4208,6 +4208,14 @@ ul.zhixun-lc li{
         display: inline-block;
         float: none;
         margin-right: 0;
+    }
+
+    #custom-header .page-title, h1.page-title{
+        font-size: 29px;
+    }
+    .panel-grid-cell .widget-title,
+    .recent-posts-text-wrap{
+        margin-left: 0;
     }
 
 

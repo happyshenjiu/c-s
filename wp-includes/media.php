@@ -2460,9 +2460,9 @@ function wp_video_shortcode( $attr, $content = '' ) {
 		'autoplay' => '',
 		'preload'  => 'metadata',
 //		'width'    => 640,
-		'width'    => 870,
+		'width'    => 740,
 //		'height'   => 360,
-		'height'   => 540,
+		'height'   => 460,
 		'class'    => 'wp-video-shortcode',
 	);
 
