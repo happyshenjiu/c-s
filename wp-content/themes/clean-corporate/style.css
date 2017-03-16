@@ -1680,11 +1680,6 @@ Top header section*/
     /*margin-bottom: 15px;*/
     max-width: 30%;
 }
-#site-identity .site-title > a {
-    color: #504b49;
-    font-family: "CHei2HK Xbold","Adobe Fan Heiti Std B", Arial, sans-serif;
-    font-size: 16px;
-}
 
 .site-header {
     width: 100%;
@@ -1692,6 +1687,10 @@ Top header section*/
 }
 #site-identity{
     padding-left: 15px;
+}
+#site-identity a{
+    display: inline-block;
+    margin-top: 10px;
 }
 .site-title {
     font-family: "Roboto",sans-serif;
@@ -1704,21 +1703,28 @@ Top header section*/
 .site-title > a {
     color: #ffffff;
 }
+#site-identity .site-title{
+    color: #504b49;
+    font-family: "CHei2HK-Xbold","Adobe Fan Heiti Std B", Arial, sans-serif;
+    /*font-weight: bolder;*/
+    font-size: 18px;
+}
 .site-description {
     color: #616161;
     font-size: 14px;
     font-style: inherit;
     font-weight: 400;
-    letter-spacing: 1px;
+    letter-spacing: 0;
     margin-bottom: 0;
     text-align: center;
 }
-#site-identity .site-description a{
+#site-identity .site-description{
     color: #197bb5;
     font-size: 18px;
     font-weight: bold;
     font-style: italic;
     cursor: pointer;
+    font-family: "Arial MT","Adobe Fan Heiti Std B", Arial, sans-serif;
 }
 
 .right-head {
@@ -3973,7 +3979,7 @@ ul.zhixun-lc li{
 --------------------------------------------------------------*/
 @media only screen and (max-width: 1600px) {
     .main-navigation ul li a{
-        padding: 22px 25px;
+        padding: 22px 20px;
     }
     #main-slider h3 a{
         font-size: 69px;

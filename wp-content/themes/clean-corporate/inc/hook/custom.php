@@ -42,16 +42,18 @@ if (!function_exists('clean_corporate_site_branding')) :
             <?php $show_tagline = clean_corporate_get_option('show_tagline'); ?>
             <?php if (true === $show_title || true === $show_tagline) : ?>
                 <div id="site-identity">
+                    <a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
                     <?php if (true === $show_title) : ?>
                         <?php if (is_front_page() && is_home()) : ?>
-                            <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+                            <h1 class="site-title"><?php bloginfo('name'); ?></h1>
                         <?php else : ?>
-                            <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"  rel="home"><?php bloginfo('name'); ?></a></p>
+                            <p class="site-title"><?php bloginfo('name'); ?></p>
                         <?php endif; ?>
                     <?php endif; ?>
                     <?php if (true === $show_tagline) : ?>
-                        <p class="site-description"><a href="<?php echo esc_url(home_url('/')); ?>"  rel="home"><?php bloginfo('description'); ?></a></p>
+                        <p class="site-description"><?php bloginfo('description'); ?></p>
                     <?php endif; ?>
+                    </a>
                 </div><!-- #site-identity -->
             <?php endif; ?>
         </div><!-- .site-branding -->
@@ -648,15 +650,17 @@ if (!function_exists('clean_corporate_header_top_content')) :
                         <?php the_widget('Clean_Corporate_Social_Widget'); ?>
                     </div><!-- .header-social-wrapper -->
                 <?php endif; ?>
+<div class="container">
+    <div class="header-social-wrapper">
 
-                <div class="header-social-wrapper">
+        <a href="mailto:support@cssecurity.com.hk"><span class="quick-icon quick-email"></span><span>support@cssecurity.com.hk</span></a>
+        <a href="tel:(+852) 2911 9500"><span
+                class="quick-icon quick-call"></span><span>(+852) 2911 9500</span></a>
+        <a href="#"><span class="quick-icon quick-adrr"></span><span class="top-addr">香港新界葵涌葵榮路13號錦濱工業大廈4樓B室<!--<br/>Room 903, 9/F, Cheung Sha Wan Plaza Phase I, 833 Cheung Sha Wan Road, Kowloon--></span></a>
 
-                    <a href="mailto:support@cssecurity.com.hk"><span class="quick-icon quick-email"></span><span>support@cssecurity.com.hk</span></a>
-                    <a href="tel:(+852) 2911 9500"><span
-                            class="quick-icon quick-call"></span><span>(+852) 2911 9500</span></a>
-                    <a href="#"><span class="quick-icon quick-adrr"></span><span class="top-addr">香港新界葵涌葵榮路13號錦濱工業大廈4樓B室<br/>Room 903, 9/F, Cheung Sha Wan Plaza Phase I, 833 Cheung Sha Wan Road, Kowloon</span></a>
+    </div><!-- .header-social-wrapper -->
+</div>
 
-                </div><!-- .header-social-wrapper -->
                 <!--				注释顶部搜索框，移到导航后面-->
 
                 <!--<div id="quick-icons">
