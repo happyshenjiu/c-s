@@ -44,15 +44,13 @@ if (!function_exists('clean_corporate_site_branding')) :
                 <div id="site-identity">
                     <?php if (true === $show_title) : ?>
                         <?php if (is_front_page() && is_home()) : ?>
-                            <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
-                                                      rel="home"><?php bloginfo('name'); ?></a></h1>
+                            <h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
                         <?php else : ?>
-                            <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
-                                                     rel="home"><?php bloginfo('name'); ?></a></p>
+                            <p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"  rel="home"><?php bloginfo('name'); ?></a></p>
                         <?php endif; ?>
                     <?php endif; ?>
                     <?php if (true === $show_tagline) : ?>
-                        <p class="site-description"><?php bloginfo('description'); ?></p>
+                        <p class="site-description"><a href="<?php echo esc_url(home_url('/')); ?>"  rel="home"><?php bloginfo('description'); ?></a></p>
                     <?php endif; ?>
                 </div><!-- #site-identity -->
             <?php endif; ?>
