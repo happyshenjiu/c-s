@@ -3929,6 +3929,9 @@ a.btn-black:hover{
     width: 48%;
     float: left;
     margin-right: 2%;
+    font-family: "MHeiHK", Arial, sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
 }
 .xiezhu textarea{
     border-radius: 0;
