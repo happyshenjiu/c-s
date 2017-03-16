@@ -2237,7 +2237,7 @@ Top header section*/
 
 
 #featured-slider .overlay-disabled .cycle-caption {
-    padding: 30px 15px;
+    padding: 47px 15px;
 }
 #featured-slider .overlay-disabled h3 {
     margin-bottom: 15px;
@@ -2327,13 +2327,12 @@ Top header section*/
     color: #fff;
 }
 .slider-buttons a {
-    /*border: 1px solid rgba(255, 255, 255, 0.5);*/
     background: #32bfc0;
     color: #ffffff;
-    font-size: 24px;
+    font-size: 26px;
     line-height: 1.5;
-    margin: 40% 10px 0 0;
-    padding: 8px 60px;
+    margin: 48% 10px 0 0;
+    padding: 10px 60px;
     text-shadow: 1px 1px 2px rgba(0,0,0,0.4);
     /*text-transform: uppercase;*/
 }
@@ -3646,7 +3645,7 @@ button.mfp-arrow, button.mfp-close {
     font-family: "Adobe Fan Heiti Std B",'Source Sans Pro Black', 'Source Sans Pro',sans-serif,Arial;
     color: #fff;
     width: 50%;
-    line-height: 80px;
+    line-height: 90px;
     text-shadow: 2px 1px 2px rgba(0,0,0,0.8);
 }
 a.btn-company{
@@ -3677,7 +3676,7 @@ a.btn-company:hover{
     font-size: 28px;
     color: #000;
     border-bottom:3px solid #32bfc0;
-    margin-top: 33px;
+    margin-top: 36px;
 }
 .blk-info{
     font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;
