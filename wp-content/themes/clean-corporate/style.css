@@ -2656,8 +2656,9 @@ Top header section*/
     text-transform: Uppercase;
 }
 #footer-widgets .textwidget{
-    font-size: 16px;
+    font-size: 14px;
     font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
+    font-weight: lighter;
 }
 #sow-editor-3 .textwidget{
     font-size: 15px;
@@ -2671,7 +2672,7 @@ Top header section*/
 #footer-widgets ul li {
     position: relative;
     color: #dddddd;
-    font-size: 16px;
+    font-size: 14px;
     font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
     font-weight: lighter;
     margin-bottom: 20px;
@@ -2681,7 +2682,7 @@ Top header section*/
     width: 80%;
 }
 #footer-widgets ul.menu li{
-    padding: 5px 0 8px 22px;
+    padding: 2px 0 5px 30px;
     background: url("img/srow_small.png") no-repeat left center;
     border-bottom: 2px solid #5f6166;
     margin-bottom: 8px;
