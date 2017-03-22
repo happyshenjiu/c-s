@@ -3978,6 +3978,11 @@ ul.zhixun-lc li{
     margin-right: 2%;
     float: left;
 }
+.textwidget iframe{
+    margin-left:30px;
+    border:none;
+    overflow:hidden
+}
 
 
 
@@ -4281,16 +4286,19 @@ ul.zhixun-lc li{
     .textwidget,.clean_corporate_widget_recent_posts,.widget_nav_menu{
         padding:0 15px;
     }
-    #footer-widgets .textwidget,.home .textwidget, #footer-widgets .widget_nav_menu{
+    #footer-widgets .textwidget,.home .textwidget, #footer-widgets .widget_nav_menu,.global-layout-no-sidebar #primary{
         padding: 0;
     }
 
     .menu-function-en-container ul, .menu-function-zh-container ul,.coantact-blk-small,.cantact-hours{
         margin-left: 0;
     }
-    #pgc-217-2-2 .panel-grid-cell .widget-title{
-        margin-left: 15px;
-        margin-top: 30px;
+   
+    .textwidget iframe{
+        margin-left: 0;
+    }
+    #pgc-203-2-2 .panel-grid-cell .widget-title,#pgc-217-2-2 .panel-grid-cell .widget-title{
+        margin:15px;
     }
 
 }
