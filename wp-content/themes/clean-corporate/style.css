@@ -4264,6 +4264,7 @@ ul.zhixun-lc li{
 
     #custom-header .page-title, h1.page-title{
         font-size: 29px;
+        padding-left: 15px;
     }
     .panel-grid-cell .widget-title,
     .recent-posts-text-wrap{
@@ -4272,7 +4273,13 @@ ul.zhixun-lc li{
     .main-navigation ul li a{
         padding: 22px 10px;
     }
+    #breadcrumb .breadcrumb-trail{
+        padding-left: 15px;
+    }
 
+    .textwidget,.clean_corporate_widget_recent_posts{
+        padding:0 15px;
+    }
 
 }
 
@@ -4648,7 +4655,7 @@ ul.zhixun-lc li{
     .slider-buttons a {
         font-size: 12px;
     }
-    
+
     .textwidget .index-service-box .alignleft{
         width: 50%;
     }
