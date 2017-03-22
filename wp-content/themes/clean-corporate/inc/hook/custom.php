@@ -650,16 +650,27 @@ if (!function_exists('clean_corporate_header_top_content')) :
                         <?php the_widget('Clean_Corporate_Social_Widget'); ?>
                     </div><!-- .header-social-wrapper -->
                 <?php endif; ?>
-<div class="container">
+
+                <?php
+                if ( ! is_active_sidebar( 'sidebar-top' ) ) {
+                    return;
+                }
+                ?>
+                <div class="container">
+                    <div class="header-social-wrapper">
+                        <?php dynamic_sidebar( 'sidebar-top' ); ?>
+                    </div><!-- .header-social-wrapper -->
+                </div>
+
+<!--<div class="container">
     <div class="header-social-wrapper">
 
         <a href="mailto:support@cssecurity.com.hk"><span class="quick-icon quick-email"></span><span>support@cssecurity.com.hk</span></a>
-        <a href="tel:(+852) 2911 9500"><span
-                class="quick-icon quick-call"></span><span>(+852) 2911 9500</span></a>
-        <a href="#"><span class="quick-icon quick-adrr"></span><span class="top-addr">香港葵興葵秀路11-15蘇濤工商中心19樓全層<!--<br/>Room 903, 9/F, Cheung Sha Wan Plaza Phase I, 833 Cheung Sha Wan Road, Kowloon--></span></a>
+        <a href="tel:(+852) 2911 9500"><span class="quick-icon quick-call"></span><span>(+852) 2911 9500</span></a>
+        <a href="#"><span class="quick-icon quick-adrr"></span><span class="top-addr">香港葵興葵秀路11-15蘇濤工商中心19樓全層</span></a>
 
-    </div><!-- .header-social-wrapper -->
-</div>
+    </div>
+</div>-->
 
                 <!--				注释顶部搜索框，移到导航后面-->
 
