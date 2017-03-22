@@ -3156,7 +3156,7 @@ div.wpcf7 {
     -moz-transition: -moz-all 300ms ease-out 0s;;
     transition:  all 300ms ease-out 0s;;
     margin-bottom: 0;
-    
+
 }
 
 .clean_corporate_widget_latest_news .latest-news-item:hover img {
@@ -3934,7 +3934,9 @@ ul.zhixun-lc li{
     border:none;
     overflow:hidden
 }
-
+.hidden{
+    display: none;
+}
 
 
 /*--------------------------------------------------------------
