@@ -2815,7 +2815,7 @@ Top header section*/
 }
 .global-layout-no-sidebar #primary{
     width: 100%;
-    padding: 0;
+    padding: 0 15px;
 }
 
 /*--------------------------------------------------------------
