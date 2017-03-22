@@ -4280,9 +4280,10 @@ ul.zhixun-lc li{
     .textwidget,.clean_corporate_widget_recent_posts,.widget_nav_menu{
         padding:0 15px;
     }
-    #footer-widgets .textwidget{
+    #footer-widgets .textwidget,.home .textwidget, #footer-widgets .widget_nav_menu{
         padding: 0;
     }
+
     .menu-function-en-container ul, .menu-function-zh-container ul{
         margin-left: 15px;
     }
