@@ -651,6 +651,7 @@ if (!function_exists('clean_corporate_header_top_content')) :
                     </div><!-- .header-social-wrapper -->
                 <?php endif; ?>
 
+<!--                添加sidebar-top小部件-->
                 <?php
                 if ( ! is_active_sidebar( 'sidebar-top' ) ) {
                     return;

@@ -429,62 +429,51 @@ if ( ! class_exists( 'Clean_Corporate_Latest_News_Widget' ) ) :
 
 						<?php foreach ( $all_posts as $key => $post ) : ?>
 							<?php setup_postdata( $post ); ?>
-
+							
 							<div class="latest-news-item">
 
-									<?php if ( 'disable' !== $params['featured_image'] && has_post_thumbnail() ) : ?>
-										<div class="latest-news-thumb">
-											<a href="<?php the_permalink(); ?>">
-												<?php
-												$img_attributes = array( 'class' => 'aligncenter' );
-												the_post_thumbnail( esc_attr( $params['featured_image'] ), $img_attributes );
-												?>
-											</a>
-										</div><!-- .latest-news-thumb -->
-									<?php endif; ?>
-									<div class="latest-news-text-wrap">
+								<?php if ( 'disable' !== $params['featured_image'] && has_post_thumbnail() ) : ?>
+									<div class="latest-news-thumb">
+										<a href="<?php the_permalink(); ?>">
+											<?php
+											$img_attributes = array( 'class' => 'aligncenter' );
+											the_post_thumbnail( esc_attr( $params['featured_image'] ), $img_attributes );
+											?>
+										</a>
+									</div><!-- .latest-news-thumb -->
+								<?php endif; ?>
+								<div class="latest-news-text-wrap">
 
-										<div class="latest-news-text-content">
-											<?php if ( false === $params['disable_date'] ) : ?>
-												<div class="latest-news-meta">
-													<?php if ( false === $params['disable_date'] ) :  ?>
-														<?php /*the_time( 'Y-M' ); */?>
-														<div class="news-date-meta"><span class="latest-news-date"><span class="latest-news-date-j"><?php the_time( 'j' ); ?></span><br><?php the_time( 'M' ); ?></span></div>
-													<?php endif; ?>
+									<div class="latest-news-text-content">
+										<h3 class="latest-news-title">
+											<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+										</h3><!-- .latest-news-title -->
 
-<!--													添加调用该文章所属分类的名称-->
-													<div class="latest-news-cat">
-														<?php
-														foreach((get_the_category()) as $category)
-														{
-															echo $category->cat_name;
-														}
-														?>
-													</div>
-
-
-													<h3 class="latest-news-title">
-														<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-													</h3>
-												</div><!-- .latest-news-meta -->
-											<?php endif; ?>
-
-											<?php if ( false === $params['disable_excerpt'] ) :  ?>
-												<div class="latest-news-summary">
+										<?php if ( false === $params['disable_excerpt'] ) :  ?>
+											<div class="latest-news-summary">
 												<?php
 												$summary = clean_corporate_the_excerpt( esc_attr( $params['excerpt_length'] ), $post );
 												echo wpautop( wp_kses_post( $summary ) );
 												?>
-												</div><!-- .latest-news-summary -->
-											<?php endif; ?>
-										</div><!-- .latest-news-text-content -->
-
-										<?php if ( false === $params['disable_more_text'] ) : ?>
-											<div class="news-read-more"><a href="<?php the_permalink(); ?>"><?php echo esc_html( $params['more_text'] ); ?><span class="screen-reader-text">"<?php the_title(); ?>"</span>
-												</a></div>
+											</div><!-- .latest-news-summary -->
 										<?php endif; ?>
+									</div><!-- .latest-news-text-content -->
 
-									</div><!-- .latest-news-text-wrap -->
+									<?php if ( false === $params['disable_date'] || false === $params['disable_more_text'] ) : ?>
+										<div class="latest-news-meta">
+											<ul>
+												<?php if ( false === $params['disable_date'] ) :  ?>
+													<li class="news-date-meta"><span class="latest-news-date"><?php the_time( 'j M Y' ); ?></span></li>
+												<?php endif; ?>
+												<?php if ( false === $params['disable_more_text'] ) : ?>
+													<li class="news-read-more"><a href="<?php the_permalink(); ?>"><?php echo esc_html( $params['more_text'] ); ?><span class="screen-reader-text">"<?php the_title(); ?>"</span>
+														</a></li>
+												<?php endif; ?>
+											</ul>
+										</div><!-- .latest-news-meta -->
+									<?php endif; ?>
+
+								</div><!-- .latest-news-text-wrap -->
 
 							</div><!-- .latest-news-item -->
 
