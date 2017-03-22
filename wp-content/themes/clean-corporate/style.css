@@ -4264,7 +4264,7 @@ ul.zhixun-lc li{
 
     #custom-header .page-title, h1.page-title{
         font-size: 29px;
-        padding-left: 15px;
+        /*padding-left: 15px;*/
     }
     .panel-grid-cell .widget-title,
     .recent-posts-text-wrap{
@@ -4274,11 +4274,17 @@ ul.zhixun-lc li{
         padding: 22px 10px;
     }
     #breadcrumb .breadcrumb-trail{
-        padding-left: 15px;
+        /*padding-left: 15px;*/
     }
 
-    .textwidget,.clean_corporate_widget_recent_posts{
+    .textwidget,.clean_corporate_widget_recent_posts,.widget_nav_menu{
         padding:0 15px;
+    }
+    #footer-widgets .textwidget{
+        padding: 0;
+    }
+    .menu-function-en-container ul, .menu-function-zh-container ul{
+        margin-left: 15px;
     }
 
 }
