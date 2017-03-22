@@ -125,6 +125,8 @@ if ( ! function_exists( 'clean_corporate_footer_start' ) ) :
 	 * @since 1.0.0
 	 */
 	function clean_corporate_footer_start() {
+		return;
+
 		$footer_status = apply_filters( 'clean_corporate_filter_footer_status', true );
 		if ( true !== $footer_status ) {
 			return;
@@ -142,6 +144,8 @@ if ( ! function_exists( 'clean_corporate_footer_end' ) ) :
 	 * @since 1.0.0
 	 */
 	function clean_corporate_footer_end() {
+		return;
+
 		$footer_status = apply_filters( 'clean_corporate_filter_footer_status', true );
 		if ( true !== $footer_status ) {
 			return;
