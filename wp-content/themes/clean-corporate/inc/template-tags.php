@@ -114,7 +114,8 @@ if ( ! function_exists( 'clean_corporate_entry_footer' ) ) :
 				/* Translators: used between list items, there is a space after the comma. */
 				$categories_list = get_the_category_list( esc_html__( ', ', 'clean-corporate' ) );
 				if ( $categories_list && clean_corporate_categorized_blog() ) {
-					printf( '<span class="cat-links">%1$s</span>', $categories_list ); // WPCS: XSS OK.
+					//注释文章显示所属分类
+					//printf( '<span class="cat-links">%1$s</span>', $categories_list );
 				}
 			}
 			$show_meta_tags = true;
