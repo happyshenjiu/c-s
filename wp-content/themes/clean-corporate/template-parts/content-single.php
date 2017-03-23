@@ -16,7 +16,8 @@
 	   *
 	   * @hooked clean_corporate_add_image_in_single_display -  10
 	   */
-	  do_action( 'clean_corporate_single_image' );
+//	注释文章页显示主题图片
+//	  do_action( 'clean_corporate_single_image' );
 	?>
 
 	<div class="entry-content-wrapper">
