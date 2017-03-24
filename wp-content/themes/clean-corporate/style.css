@@ -4273,6 +4273,9 @@ ul.zhixun-lc li{
     .scrollup{
         right: 15px;
     }
+    .textwidget .alignleft{
+        width: 100%;
+    }
     #footer-widgets .textwidget{
         font-size: 13px;
     }
@@ -4653,11 +4656,7 @@ ul.zhixun-lc li{
     .slider-buttons a {
         font-size: 12px;
     }
-
-    .textwidget .index-service-box .alignleft{
-        width: 50%;
-    }
-
+    
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:550px) {
