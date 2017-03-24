@@ -15,7 +15,8 @@
 		timing: 'ease-in-out',
 		speed: 500,
 		source: '#mob-menu',
-		name: 'sidr-main'
+		name: 'sidr-main',
+		side: 'right'
     });
 
 

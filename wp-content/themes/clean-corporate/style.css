@@ -4260,7 +4260,7 @@ ul.zhixun-lc li{
     }
 
     #page {
-        margin-top:45px;
+        /*margin-top:45px;*/
     }
 
     #main-nav {
@@ -4272,15 +4272,18 @@ ul.zhixun-lc li{
     }
 
     #mobile-trigger {
-        background: #333 none repeat scroll 0 0;
         display: block;
-        left: 0;
-        padding: 5px;
-        position: fixed;
+        padding: 4px 0 4px 15px;
         text-align: center;
+        float: right;
+        border-left: 1px solid #e8e8e8;
+        margin-top: 7px;
+      /*background: #333 none repeat scroll 0 0;
+        position: fixed;
+        left: 0;
         top: 0;
         width: 100%;
-        z-index: 999999;
+        z-index: 999999;*/
     }
 
     .logged-in #mobile-trigger {
@@ -4288,7 +4291,7 @@ ul.zhixun-lc li{
     }
 
     .sidr-open #mobile-trigger {
-        padding-left: 275px;
+        /*padding-left: 275px;*/
         text-align: left;
         transition: inherit;
     }
@@ -4304,12 +4307,12 @@ ul.zhixun-lc li{
     }
 
     #mobile-trigger i {
-        background-color: #4fc3dd;
+        /*background-color: #4fc3dd;
         border: 2px solid #fffffe;
         box-shadow: 0 1px 2px #001837;
-        color: #ffffff;
-        font-size: 21px;
-        padding: 6px 8px;
+        padding: 6px 8px;*/
+        color: #bbb;
+        font-size: 24px;
     }
     .sidr ul li ul li a,
     .sidr ul li ul li span {
@@ -4336,7 +4339,7 @@ ul.zhixun-lc li{
     }
     .site-branding {
         float: left;
-        margin: 0 auto;
+        margin: 5px auto 4px auto;
         max-width: 100%;
         text-align: left;
     }
@@ -4374,10 +4377,19 @@ ul.zhixun-lc li{
         height: 20px;
     }
     .site-branding img{
-        margin-top: 5px;
+        margin-top: 0;
+        width: 40px;
+        height: 40px;
+    }
+    .site-title{
+        margin-bottom: 0;
+    }
+    #site-identity a{
+        margin-top: 1px;
     }
     #quick-icons{
         margin-top: 9px;
+        display: none;
     }
     .index-company{
         font-size: 36px;

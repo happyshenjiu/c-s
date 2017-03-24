@@ -237,6 +237,8 @@ if ( ! function_exists( 'clean_corporate_render_featured_slider' ) ) :
                 <?php endif; ?>
 
                   <img src="<?php echo esc_url( $slide['images'][0]); ?>" alt="<?php echo esc_attr( $slide['title'] ); ?>"  />
+					  
+
                 <?php if ( ! empty( $slide['url'] ) ) :  ?>
                   </a>
                 <?php endif; ?>

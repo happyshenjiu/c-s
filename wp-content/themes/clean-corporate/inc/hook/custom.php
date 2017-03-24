@@ -79,6 +79,17 @@ if (!function_exists('clean_corporate_site_branding')) :
             </ul>
         </div><!-- #quick-icons -->
 
+<!--添加 #mobile-trigger和#mob-menu 到header 右侧-->
+        <a id="mobile-trigger" href="#mob-menu"><i class="fa fa-bars"></i></a>
+        <div id="mob-menu">
+            <?php
+            wp_nav_menu(array(
+                'theme_location' => 'primary',
+                'container' => '',
+                'fallback_cb' => 'clean_corporate_primary_navigation_fallback',
+            ));
+            ?>
+        </div>
 
         <div class="right-header">
             <div id="main-nav">
@@ -129,7 +140,8 @@ if (!function_exists('clean_corporate_mobile_navigation')) :
     }
 
 endif;
-add_action('clean_corporate_action_before', 'clean_corporate_mobile_navigation', 20);
+//注释将#mobile-trigger和#mob-menu添加到顶部
+//add_action('clean_corporate_action_before', 'clean_corporate_mobile_navigation', 20);
 
 if (!function_exists('clean_corporate_footer_copyright')) :
 
