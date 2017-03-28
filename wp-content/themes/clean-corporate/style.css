@@ -4253,8 +4253,12 @@ ul.zhixun-lc li{
     #breadcrumb .breadcrumb-trail{
         /*padding-left: 15px;*/
     }
-    .clean_corporate_widget_recent_posts,.widget_nav_menu{
+    .textwidget ,.clean_corporate_widget_recent_posts,.widget_nav_menu{
         padding:0 15px;
+    }
+    .link-cantact{
+        margin-left: -15px;
+        margin-right: -15px;
     }
     #footer-widgets .textwidget,.home .textwidget, #footer-widgets .widget_nav_menu,.global-layout-no-sidebar #primary{
         padding: 0;
