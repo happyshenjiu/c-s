@@ -4258,10 +4258,6 @@ ul.zhixun-lc li{
     .textwidget ,.clean_corporate_widget_recent_posts,.widget_nav_menu{
         padding:0 15px;
     }
-    .link-cantact{
-        margin-left: -15px;
-        margin-right: -15px;
-    }
     #footer-widgets .textwidget,.home .textwidget, #footer-widgets .widget_nav_menu,.global-layout-no-sidebar #primary{
         padding: 0;
     }
@@ -4452,9 +4448,6 @@ ul.zhixun-lc li{
     #breadcrumb .breadcrumb-trail li{
         line-height: 21px;
     }
-.web-news{
-    display: none;
-}
 
 }
 /* All Mobile Sizes (devices and browser) */
@@ -4689,7 +4682,14 @@ ul.zhixun-lc li{
     .slider-buttons a {
         font-size: 12px;
     }
-
+    .link-cantact{
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 0;
+    }
+    .web-news{
+        display: none;
+    }
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:550px) {
