@@ -3954,7 +3954,9 @@ ul.zhixun-lc li{
     font-size: 14px;
     padding: 4px 5px;
 }
-
+.web-news{
+    display: inline-block;
+}
 
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
@@ -4298,7 +4300,7 @@ ul.zhixun-lc li{
         width: 100%;
     }
     #footer-widgets .textwidget{
-        font-size: 13px;
+        /*font-size: 13px;*/
     }
     #sow-editor-3 .textwidget{
         font-size: 14px;
@@ -4450,7 +4452,9 @@ ul.zhixun-lc li{
     #breadcrumb .breadcrumb-trail li{
         line-height: 21px;
     }
-
+.web-news{
+    display: none;
+}
 
 }
 /* All Mobile Sizes (devices and browser) */
