@@ -326,7 +326,7 @@ class SiteOrigin_Panels_Default_Styling {
 							$attributes['style'] .= 'background-repeat: repeat;';
 							break;
 						case 'cover':
-							$attributes['style'] .= 'background-size: cover;';
+							$attributes['style'] .= 'background-size: cover;background-position: 50% 50%;';
 							break;
 						case 'center':
 							$attributes['style'] .= 'background-position: center center; background-repeat: no-repeat;';
