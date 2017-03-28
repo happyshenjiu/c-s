@@ -1557,10 +1557,11 @@ object {
 --------------------------------------------------------------*/
 
 .header-social-wrapper {
-    float: right;
-    margin-top: 2px;
+    /*float: right;*/
+    text-align: right;
     padding: 12px 0;
     line-height: 1;
+    width: 100%;
 }
 .header-social-wrapper .clean_corporate_widget_social li {
     margin-bottom: 0;
@@ -3938,6 +3939,21 @@ ul.zhixun-lc li{
     display: none;
 }
 
+.header-social-wrapper .widget{
+    float: right;
+    width: 90%;
+    margin:0 auto;
+}
+.header-social-wrapper .widget_polylang{
+    float: right;
+    width: 10%;
+    margin:0 auto 10px auto;
+}
+.header-social-wrapper .widget_polylang select{
+    font-size: 14px;
+    padding: 4px 5px;
+}
+
 
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
@@ -4236,7 +4252,7 @@ ul.zhixun-lc li{
     #breadcrumb .breadcrumb-trail{
         /*padding-left: 15px;*/
     }
-    .textwidget,.clean_corporate_widget_recent_posts,.widget_nav_menu{
+    .clean_corporate_widget_recent_posts,.widget_nav_menu{
         padding:0 15px;
     }
     #footer-widgets .textwidget,.home .textwidget, #footer-widgets .widget_nav_menu,.global-layout-no-sidebar #primary{
@@ -4296,7 +4312,7 @@ ul.zhixun-lc li{
         text-align: center;
         float: right;
         border-left: 1px solid #e4e4e4;
-        margin-top: 7px;
+        margin-top: 15px;
       /*background: #333 none repeat scroll 0 0;
         position: fixed;
         left: 0;
@@ -4358,13 +4374,16 @@ ul.zhixun-lc li{
     }
     .site-branding {
         float: left;
-        margin: 5px auto 4px auto;
+        margin: 13px auto 12px auto;
         max-width: 100%;
         text-align: left;
     }
-    .site-title {
-        margin-top: 0;
+    #site-identity .site-title {
+        margin-top: 2px;
+        margin-bottom: 0;
+        font-size: 16px;
     }
+
     .custom-logo-link, .site-logo-link, #site-identity {
         float: left;
         margin-right: 0;
@@ -4400,9 +4419,7 @@ ul.zhixun-lc li{
         width: 40px;
         height: 40px;
     }
-    .site-title{
-        margin-bottom: 0;
-    }
+
     #site-identity a{
         margin-top: 1px;
     }
@@ -4422,6 +4439,13 @@ ul.zhixun-lc li{
     #tophead{
         display: none;
     }
+    #footer-widgets ul.menu li:last-child{
+        border-bottom: 2px solid #5f6166;
+    }
+    #breadcrumb .breadcrumb-trail li{
+        line-height: 21px;
+    }
+
 
 }
 /* All Mobile Sizes (devices and browser) */
@@ -4656,7 +4680,7 @@ ul.zhixun-lc li{
     .slider-buttons a {
         font-size: 12px;
     }
-    
+
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:550px) {
@@ -4734,9 +4758,8 @@ ul.zhixun-lc li{
     }
 
     .site-branding {
-        text-align: center;
+        /*text-align: center;*/
     }
-
     .clean_corporate_widget_latest_news .latest-news-item.news-featured .latest-news-thumb {
         float: none;
         margin-right: 0;
