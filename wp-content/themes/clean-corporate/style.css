@@ -2672,6 +2672,7 @@ Top header section*/
 #sow-editor-3 .textwidget{
     font-size: 15px;
     margin-left: 30px;
+    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
 }
 #footer-widgets ul {
     list-style: none;
@@ -2693,7 +2694,7 @@ Top header section*/
 #footer-widgets ul.menu li{
     padding: 2px 0 5px 30px;
     background: url("img/srow_small.png") no-repeat left center;
-    border-bottom: 2px solid #5f6166;
+    border-bottom: 1px solid #5f6166;
     margin-bottom: 8px;
 }
 #footer-widgets ul.menu li:last-child{
@@ -2703,7 +2704,7 @@ Top header section*/
 #footer-widgets a {
     color: #dddddd;
     font-size: 16px;
-    font-family: "Microsoft JhengHei","Adobe Fan Heiti Std B",Arial,sans-serif;
+    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
     font-weight: lighter;
 }
 #footer-widgets li:hover a {
@@ -2760,7 +2761,7 @@ Top header section*/
 }
 
 .footer-widget-area .widget {
-    margin-top: 15px;
+    margin-top: 0;
 }
 .widget_polylang li{
     width: 17.5%;
@@ -4446,11 +4447,15 @@ ul.zhixun-lc li{
         display: none;
     }
     #footer-widgets ul.menu li:last-child{
-        border-bottom: 2px solid #5f6166;
+        border-bottom: 1px solid #5f6166;
     }
     #breadcrumb .breadcrumb-trail li{
         line-height: 21px;
     }
+    .sidr ul li ul li.sidr-class-page_item a{
+        color: #14928b;
+    }
+
 
 }
 /* All Mobile Sizes (devices and browser) */
@@ -4846,7 +4851,7 @@ ul.zhixun-lc li{
     #footer-widgets .footer-widget-area {
         width: 100%;
         padding-top: 15px;
-        border-top: 1px solid #fff;
+        border-top: none;
         margin-top: 15px;
     }
 
@@ -4974,6 +4979,11 @@ ul.zhixun-lc li{
     }
     .blk,.panel-grid-cell .widget-title{
         font-size: 24px;
+    }
+    .contact-list li{
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
     }
 
 }
