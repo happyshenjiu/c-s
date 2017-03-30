@@ -3955,7 +3955,7 @@ ul.zhixun-lc li{
     padding: 4px 5px;
 }
 .web-news{
-    display: inline-block;
+    display: block;
 }
 .mobile-news{
     display: none;
@@ -4694,7 +4694,7 @@ ul.zhixun-lc li{
         display: none;
     }
     .mobile-news{
-        display: inline-block;
+        display: block;
     }
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
