@@ -3961,6 +3961,12 @@ ul.zhixun-lc li{
 .mobile-news{
     display: none;
 }
+.help-title{
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Source Sans Pro Black','Source Sans Pro',Arial,sans-serif;
+    display: block;
+}
 
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
@@ -4700,6 +4706,17 @@ ul.zhixun-lc li{
     }
     .mobile-news{
         display: block;
+    }
+    ul.zhixun-lc li{
+        font-size: 12px;
+    }
+    .help-title{
+        margin-top: 30px;
+        display: block;
+    }
+    .xiezhu input{
+        width: 100%;
+        margin-right: 0;
     }
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
