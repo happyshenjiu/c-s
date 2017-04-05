@@ -3976,6 +3976,81 @@ ul.zhixun-lc li{
 .border-img-bottom img{
     border-bottom: 6px solid #32bebf;
 }
+.case-class-box{
+    position: relative;
+    height: 444px;
+}
+.case-class-box span{
+    color: #fff;
+    display: block;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 71px;
+    font-size: 18px;
+}
+.case-class-01 span{
+    padding-top: 8px;
+    padding-right: 20px;
+}
+.case-class-03 span{
+    padding-top: 77px;
+    padding-right: 40px;
+}
+.case-class-04 span{
+    padding-top: 73px;
+}
+.case-class-06 span{
+    padding-top: 75px;
+}
+.case-class-01{
+    background: url("img/case-class-icon (1).png") no-repeat;
+    width: 206px;
+    height: 111px;
+    position: absolute;
+    top: 56px;
+    left:240px;
+}
+.case-class-02{
+    background: url("img/case-class-icon (2).png") no-repeat;
+    width: 217px;
+    height: 109px;
+    position: absolute;
+    top: 114px;
+    left: 398px;
+}
+.case-class-03{
+    background: url("img/case-class-icon (3).png") no-repeat;
+    width: 215px;
+    height: 109px;
+    position: absolute;
+    top:278px;
+    left:303px;
+}
+.case-class-04{
+    background: url("img/case-class-icon (4).png") no-repeat;
+    width: 215px;
+    height: 107px;
+    position: absolute;
+    top:5px;
+    left:845px;
+}
+.case-class-05{
+    background: url("img/case-class-icon (5).png") no-repeat;
+    width: 216px;
+    height: 110px;
+    position: absolute;
+    top: 168px;
+    left:687px;
+}
+.case-class-06{
+    background: url("img/case-class-icon (6).png") no-repeat;
+    width: 214px;
+    height: 110px;
+    position: absolute;
+    top: 333px;
+    left:655px;
+}
+
 
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
