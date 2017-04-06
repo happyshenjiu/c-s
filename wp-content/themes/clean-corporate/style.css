@@ -4008,7 +4008,8 @@ ul.zhixun-lc li{
     height: 111px;
     position: absolute;
     top: 56px;
-    left:240px;
+    /*left:240px;*/
+    left:19.4%;
 }
 .case-class-02{
     background: url("img/case-class-icon (2).png") no-repeat;
@@ -4016,7 +4017,8 @@ ul.zhixun-lc li{
     height: 109px;
     position: absolute;
     top: 114px;
-    left: 398px;
+    /*left: 398px;*/
+    left: 32.35%;
 }
 .case-class-03{
     background: url("img/case-class-icon (3).png") no-repeat;
@@ -4024,7 +4026,8 @@ ul.zhixun-lc li{
     height: 109px;
     position: absolute;
     top:278px;
-    left:303px;
+    /*left:303px;*/
+    left: 24.4%;
 }
 .case-class-04{
     background: url("img/case-class-icon (4).png") no-repeat;
@@ -4032,7 +4035,8 @@ ul.zhixun-lc li{
     height: 107px;
     position: absolute;
     top:5px;
-    left:845px;
+    /*left:845px;*/
+    left: 68.5%;
 }
 .case-class-05{
     background: url("img/case-class-icon (5).png") no-repeat;
@@ -4040,7 +4044,8 @@ ul.zhixun-lc li{
     height: 110px;
     position: absolute;
     top: 168px;
-    left:687px;
+    /*left:687px;*/
+    left:55.68%;
 }
 .case-class-06{
     background: url("img/case-class-icon (6).png") no-repeat;
@@ -4048,7 +4053,8 @@ ul.zhixun-lc li{
     height: 110px;
     position: absolute;
     top: 333px;
-    left:655px;
+    /*left:655px;*/
+    left: 53%;
 }
 
 
