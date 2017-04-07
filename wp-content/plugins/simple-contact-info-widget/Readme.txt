@@ -59,7 +59,6 @@ Place your language file from /languages into wp-content/languages/plugins.
 
 1. Example when all fields are filled in.
 2. Back-end view of the widget.
-3. Example of some icon effects.
 
 == Changelog ==
 

@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the WordPress - 4.7.x - Administration - Network Admin package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2017-03-09 05:40:16+0000\n"
+"PO-Revision-Date: 2017-01-15 03:25:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
 "Language: zh_HK\n"
 "Project-Id-Version: WordPress - 4.7.x - Administration - Network Admin\n"
 
@@ -55,6 +55,10 @@ msgstr "對不起，你沒有權限刪除該網站。"
 msgid "The email address of the first comment author on a new site."
 msgstr "新網站第一則評論作者的電子郵件地址。"
 
+#: wp-admin/network/settings.php:266
+msgid "First Comment Email"
+msgstr "第一個評論信箱"
+
 #. translators: This string should only be translated if wp-config-sample.php
 #. is localized. You can check the localized release package or
 #. https://i18n.svn.wordpress.org/<locale code>/branches/<wp
@@ -81,10 +85,6 @@ msgstr "對不起，你沒有權限新增網站至這個網路。"
 #: wp-admin/network/site-users.php:14
 msgid "Sorry, you are not allowed to edit this site."
 msgstr "對不起，你沒有權限允許編輯這個網站。"
-
-#: wp-admin/network/settings.php:266
-msgid "First Comment Email"
-msgstr "第一個評論電子郵件"
 
 #. translators: 1: theme name, 2: theme author
 #: wp-admin/network/themes.php:138

@@ -2459,6 +2459,7 @@ function wp_video_shortcode( $attr, $content = '' ) {
 		'loop'     => '',
 		'autoplay' => '',
 		'preload'  => 'metadata',
+//		注释
 //		'width'    => 640,
 		'width'    => 740,
 //		'height'   => 360,
