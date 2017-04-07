@@ -248,7 +248,6 @@ function wp_link_category_checklist( $link_id = 0 ) {
 
 	$categories = get_terms( 'link_category', array( 'orderby' => 'name', 'hide_empty' => 0 ) );
 
-
 	if ( empty( $categories ) )
 		return;
 

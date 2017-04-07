@@ -182,9 +182,7 @@ class WP_Term_Query {
 		$this->query_var_defaults = array(
 			'taxonomy'               => null,
 			'object_ids'             => null,
-//			注释按name 排序，改为按id排序
-//			'orderby'                => 'name',
-			'orderby'                => 'id',
+			'orderby'                => 'name',
 			'order'                  => 'ASC',
 			'hide_empty'             => true,
 			'include'                => array(),
