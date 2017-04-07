@@ -403,9 +403,7 @@ do_action( "{$taxonomy}_term_new_form_tag" );
 		'hide_if_empty'    => false,
 		'taxonomy'         => $taxonomy,
 		'name'             => 'parent',
-//		注释按name排序，给为按id排序
-//		'orderby'          => 'name',
-		'orderby'          => 'id',
+		'orderby'          => 'name',
 		'hierarchical'     => true,
 		'show_option_none' => __( 'None' ),
 	);
