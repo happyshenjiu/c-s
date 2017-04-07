@@ -3030,30 +3030,7 @@ div.wpcf7 {
     width:100%;
     height:100%;
 }
-.fa-offer1{
-    background-image: url("img/icon-offer1.png");
-    background-size: cover;
-}
-.fa-offer2{
-    background-image: url("img/icon-offer2.png");
-    background-size: cover;
-}
-.fa-offer3{
-    background-image: url("img/icon-offer3.png");
-    background-size: cover;
-}
-.fa-offer4{
-    background-image: url("img/icon-offer4.png");
-    background-size: cover;
-}
-.fa-offer5{
-    background-image: url("img/icon-offer5.png");
-    background-size: cover;
-}
-.fa-offer6{
-    background-image: url("img/icon-offer6.png");
-    background-size: cover;
-}
+
 .service-block-item:hover .service-block-inner > a {
     margin-top: 10px;
 }
