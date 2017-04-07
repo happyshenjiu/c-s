@@ -4054,6 +4054,11 @@ ul.zhixun-lc li{
     /*left:655px;*/
     left: 53%;
 }
+.margin-15{
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
 
 
 /*--------------------------------------------------------------
@@ -4372,10 +4377,14 @@ ul.zhixun-lc li{
 
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width:900px) {
+    .margin-15{
+        margin-bottom: 0;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
     body{
         padding-top: 0;
     }
-
     #page {
         /*margin-top:45px;*/
     }
