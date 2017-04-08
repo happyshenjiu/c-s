@@ -47,7 +47,7 @@ if ( ! function_exists( 'clean_corporate_posted_on' ) ) :
 			echo '<span class="posted-on">' . $posted_on . '</span>'; // WPCS: XSS OK.
 		}
 		if ( ! empty( $byline ) ) {
-			echo '<span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
+			echo '<span class="byline"> ' . $byline . '</span>';
 		}
 
 	}
@@ -93,7 +93,8 @@ if ( ! function_exists( 'clean_corporate_entry_footer' ) ) :
 				);
 			}
 			if ( ! empty( $byline ) ) {
-				echo '<span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
+//				注释 发布作者
+//				echo '<span class="byline"> ' . $byline . '</span>'; // WPCS: XSS OK.
 			}
 
 		}
