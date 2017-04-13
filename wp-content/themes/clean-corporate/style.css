@@ -3370,6 +3370,22 @@ ul.zhixun-lc li{
     margin-left: 0;
     margin-right: 0;
 }
+.villa-box ul{
+    clear: both;
+    padding: 0;
+    margin: 0;
+}
+.villa-box ul li{
+    list-style: none;
+    float: left;
+    width: 25%;
+    display: block;
+}
+.villa-box ul li img{
+    width: 89%;
+    display: block;
+    margin-right: 11%;
+}
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
 --------------------------------------------------------------*/
@@ -3651,6 +3667,15 @@ ul.zhixun-lc li{
         margin-bottom: 0;
         margin-left: -15px;
         margin-right: -15px;
+    }
+    .villa-box ul li{
+        width: 50%;
+        padding-left: 15px;
+        margin-bottom: 30px;
+    }
+    .villa-box ul li img{
+        width: 89%;
+        margin-right: 11%;
     }
     body{
         padding-top: 0;
