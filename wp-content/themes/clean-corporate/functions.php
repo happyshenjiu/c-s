@@ -192,6 +192,17 @@ function clean_corporate_admin_scripts( $hook ) {
 }
 add_action( 'admin_enqueue_scripts', 'clean_corporate_admin_scripts' );
 
+
+/**
+ *WordPress 为不同的语言添加不同的样式
+ *https://www.endskin.com/body-class-locale-language/
+ */
+function Bing_body_class_add_locale( $classes ){
+	$classes[] = 'locale-' . sanitize_html_class( get_locale() );
+	return $classes;
+}
+add_filter( 'body_class', 'Bing_body_class_add_locale' );
+
 /**
  * Load init.
  */

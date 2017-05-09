@@ -51,7 +51,7 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro|Arial+MT');/*引入网页字体*/
 html {
-    font-family: "Adobe Fan Heiti Std B", Arial,sans-serif;
+    font-family: "Adobe Fan Heiti Std B","黑体", Arial,sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust:     100%;
     box-sizing: border-box;
@@ -164,7 +164,7 @@ textarea {
     margin: 0;
     outline: none;
     resize: none;
-    font-family: "Adobe Fan Heiti Std B", Arial,sans-serif;
+    font-family: "Adobe Fan Heiti Std B","黑体", Arial,sans-serif;
 }
 button {
     overflow: visible;
@@ -3287,6 +3287,7 @@ a.btn-black:hover{
     font-weight: lighter;
     font-size: 14px;
 }
+
 .xiezhu textarea{
     border-radius: 0;
     background: transparent;
@@ -3297,6 +3298,7 @@ a.btn-black:hover{
     font-weight: lighter;
     font-size: 14px;
 }
+
 .xiezhu input.wpcf7-submit{
     border-radius: 0;
     background: #44b0ac;
@@ -3363,12 +3365,14 @@ ul.zhixun-lc li{
     font-family: 'Source Sans Pro Black','Source Sans Pro',Arial,sans-serif;
     display: block;
 }
+
 .help-info{
     text-align: center;
     font-size:20px;
     font-family:"MHeiHK",Arial,sans-serif;
     font-weight:bold;
 }
+
 .border-img-bottom img{
     border-bottom: 6px solid #32bebf;
 }
@@ -3392,6 +3396,55 @@ ul.zhixun-lc li{
     width: 89%;
     display: block;
     margin-right: 11%;
+}
+
+body.locale-zh_CN .menu-function-en-container ul li a,
+body.locale-zh_CN .menu-function-zh-container ul li a,
+body.locale-zh_CN .menu-function-cn-container ul li a,
+body.locale-zh_CN .xiezhu input,
+body.locale-zh_CN .xiezhu textarea,
+body.locale-zh_CN .help-title,
+body.locale-zh_CN .help-info,
+body.locale-zh_CN button,
+body.locale-zh_CN input,
+body.locale-zh_CN optgroup,
+body.locale-zh_CN select,
+body.locale-zh_CN textarea ,
+body.locale-zh_CN,
+body.locale-zh_CN h1,
+body.locale-zh_CN h2,
+body.locale-zh_CN h3,
+body.locale-zh_CN h4,
+body.locale-zh_CN h5,
+body.locale-zh_CN h6,
+body.locale-zh_CN select,
+body.locale-zh_CN .main-navigation ul li a ,
+body.locale-zh_CN .widget-subtitle,
+body.locale-zh_CN #site-identity .site-title,
+body.locale-zh_CN #site-identity .site-description,
+body.locale-zh_CN #main-slider p,
+body.locale-zh_CN #main-slider h3 a,
+body.locale-zh_CN .sidebar .widget-title ,
+body.locale-zh_CN #footer-widgets .widget-title ,
+body.locale-zh_CN #footer-widgets .textwidget,
+body.locale-zh_CN #sow-editor-3 .textwidget,
+body.locale-zh_CN #footer-widgets ul li ,
+body.locale-zh_CN #footer-widgets a ,
+body.locale-zh_CN .service_list li .service_title,
+body.locale-zh_CN .service_title span,
+body.locale-zh_CN .blk,
+body.locale-zh_CN .offer-title,
+body.locale-zh_CN .offer-description,
+body.locale-zh_CN .index-company,
+body.locale-zh_CN a.btn-company,
+body.locale-zh_CN .contact-blk,
+body.locale-zh_CN .blk-info,
+body.locale-zh_CN .coantact-blk-small,
+body.locale-zh_CN .link-cantact,
+body.locale-zh_CN a.btn-black,
+body.locale-zh_CN .panel-grid-cell .widget-title
+{
+    font-family: "黑体",Arial,sans-serif;
 }
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
