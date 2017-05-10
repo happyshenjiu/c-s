@@ -3446,6 +3446,10 @@ body.locale-zh_CN .panel-grid-cell .widget-title
 {
     font-family: "微软雅黑","黑体",Arial,sans-serif;
 }
+
+.locale-en_US .main-navigation ul li a{
+    padding: 22px 15px;
+}
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
 --------------------------------------------------------------*/
@@ -3482,6 +3486,9 @@ body.locale-zh_CN .panel-grid-cell .widget-title
     .main-navigation ul li a{
         padding: 22px 18px;
     }
+    .locale-en_US .main-navigation ul li a{
+        padding: 22px 10px;
+    }
     .service-block-inner > a{
         margin-right: 30px;
         width: 65px;
@@ -3500,6 +3507,9 @@ body.locale-zh_CN .panel-grid-cell .widget-title
     .main-navigation ul li a{
         font-size: 15px;
         padding: 22px 20px;
+    }
+    .locale-en_US .main-navigation ul li a{
+        padding: 22px 10px;
     }
     #quick-icons{
         margin-top: 20px;
