@@ -556,7 +556,7 @@ a:active {
     color: #5d5d5d;
     display: block;
     font-size: 18px;
-    padding:22px 30px;
+    padding:22px 25px;
     position: relative;
     z-index: 99;
     font-family: "Adobe Fan Heiti Std B", Arial, sans-serif;
@@ -3264,6 +3264,11 @@ a.btn-black:hover{
 .menu-function-zh-container ul li:nth-child(17),
 .menu-function-cn-container ul li:nth-child(17){
     background: url("img/icon-solution-17.png") no-repeat top left;
+}
+.menu-function-en-container ul li:nth-child(18),
+.menu-function-zh-container ul li:nth-child(18),
+.menu-function-cn-container ul li:nth-child(18){
+    background: url("img/icon-solution-18.png") no-repeat top left;
 }
 .menu-function-en-container ul li a,
 .menu-function-zh-container ul li a,
