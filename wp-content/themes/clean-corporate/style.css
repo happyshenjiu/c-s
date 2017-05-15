@@ -559,7 +559,7 @@ a:active {
     padding:22px 25px;
     position: relative;
     z-index: 99;
-    font-family: "Adobe Fan Heiti Std B", Arial, sans-serif;
+    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif;
 }
 .main-navigation ul ul a {
     border-bottom: 1px solid #2a9495;
