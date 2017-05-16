@@ -575,6 +575,7 @@ a:active {
     transition: padding 0.2s ease-in-out 0s;
     width: 100%;
 }
+
 .main-navigation  ul  li > a:hover,
 .main-navigation  ul li.current-menu-item > a,
 .main-navigation  ul  li.current_page_item > a,
@@ -730,7 +731,7 @@ a.comment-reply-link {
     padding: 0;
 }
 .post-navigation .nav-links > div  {
-    width:100%;
+    width:46%;
 }
 /*--------------------------------------------------------------
 # Accessibility
@@ -1900,6 +1901,7 @@ Top header section*/
     top:4%;
     transition: all 1s ease-in-out 0s;
     z-index: 999;
+    width:40%;
 }
 #main-slider  .next-prev-wrapper {
     height: 100%;
@@ -3071,7 +3073,7 @@ a.btn-company:hover{
     color: #fff;
     text-transform: capitalize;
     /*font-size: 58px;*/
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
     margin-bottom: 30px;
@@ -3459,6 +3461,9 @@ body.locale-zh_CN .panel-grid-cell .widget-title
 }
 .locale-en_US .slider-buttons a{
     margin: 30% 10px 0 0;
+}
+.locale-en_US .main-navigation ul ul a{
+    padding: 9px 15px;
 }
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
