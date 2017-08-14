@@ -514,7 +514,7 @@ a:active {
     min-width: 220px;
     opacity: 0;
     position: absolute;
-    top: 70px;
+    top: 47px;
     transition: opacity 0.4s ease-in-out 0s;
     z-index: -9999;
 }
@@ -555,8 +555,8 @@ a:active {
     border: medium none;
     color: #5d5d5d;
     display: block;
-    font-size: 18px;
-    padding:22px 25px;
+    /*font-size: 18px;*/
+    padding: 5px 35px 21px;
     position: relative;
     z-index: 99;
     font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif;
@@ -1257,7 +1257,8 @@ object {
     margin: 0 auto;
 }
 .container {
-    width:66.2%;
+    /*width:66.2%;*/
+    width: 71.8%;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -1296,7 +1297,7 @@ object {
     position: fixed;
     top: 0;
     z-index: 9999;
-    background-color: #fff;
+    background-color: #fafbfb;
 }
 /*--------------------------------------------------------------
 ##  Header Style By WEN Themes
@@ -1304,7 +1305,7 @@ object {
 .header-social-wrapper {
     /*float: right;*/
     text-align: right;
-    padding: 12px 0;
+    padding: 20px 0;
     line-height: 1;
     width: 100%;
 }
@@ -1333,7 +1334,7 @@ Top header section*/
     display: table;
 }
 #tophead {
-    background-color: #222222;
+    background-color: #fafbfb;
     clear: both;
 }
 #quick-contact {
@@ -1416,6 +1417,7 @@ Top header section*/
 .site-branding {
     float: left;
     max-width: 30%;
+    margin-top: 24px;
 }
 .site-header {
     width: 100%;
@@ -1502,9 +1504,10 @@ Top header section*/
     background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
     border: 1px solid #dddddd;
     color: #ffffff;
-    height: 15px;
-    padding: 10px 9% 10px 10px;
-    width: 86%;
+    height: 10px;
+    padding: 10px 0 10px 10px;
+    /*width: 86%;*/
+    width: 60%;
 }
 .search-box-wrap .search-form input.search-field  {
     color: #222222;
@@ -1513,12 +1516,13 @@ Top header section*/
     position: relative;
 }
 .search-form .search-submit {
-    background: #4fc3de none repeat scroll 0 0;
+    /*background: #11918a none repeat scroll 0 0;*/
+    background: transparent;
     border: medium none;
     border-radius: 0;
-    color: #ffffff;
+    color: #979797;
     font-size: 15px;
-    height: 37px;
+    height: 32px;
     line-height: 1.8;
     padding: 0 9px;
     position: absolute;
@@ -1526,7 +1530,7 @@ Top header section*/
     top: 0;
 }
 .search-form .search-submit:hover {
-    background: #289cb7;
+    /*background: #289cb7;*/
 }
 /*Top header section*/
 #tophead::after,
@@ -3351,13 +3355,43 @@ ul.zhixun-lc li{
 }
 .header-social-wrapper .widget{
     float: right;
-    width: 90%;
-    margin:0 auto;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+a.link-home{
+    background: #11918a;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #fff;
+}
+.top-tel{
+    margin-top: 5px;
+    color: #979797;
+}
+.header-social-wrapper .top-search-box{
+    float: right;
+    display: inline-block;
+    margin-left: -70px;
 }
 .header-social-wrapper .widget_polylang{
     float: right;
-    width: 10%;
-    margin:0 auto 10px auto;
+    display: inline-block;
+    margin-top: 5px;
+}
+.header-social-wrapper .widget_polylang li{
+    list-style: none;
+    display: inline-block;
+    float: none;
+    border: none;
+    margin-right: 0;
+    margin-top: 5px;
+    width: 50px;
+    text-align: left;
+}
+.header-social-wrapper .widget_polylang li a{
+    margin-right: 0;
+    color: #979797;
 }
 .header-social-wrapper .widget_polylang select{
     font-size: 14px;

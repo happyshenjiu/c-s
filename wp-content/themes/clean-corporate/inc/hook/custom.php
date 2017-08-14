@@ -63,21 +63,6 @@ if (!function_exists('clean_corporate_site_branding')) :
 
         ?>
 
-        <div id="quick-icons">
-            <ul>
-                <?php ?>
-                <li class="quick-search-icon">
-                    <?php if (true === $search_in_header) : ?>
-                    <div class="header-search-box">
-                        <a href="#" class="search-icon"><i class="fa fa-search"></i></a>
-                        <div class="search-box-wrap">
-                            <?php get_search_form(); ?>
-                        </div><!-- .search-box-wrap -->
-                    </div><!-- .header-search-box -->
-                </li>
-            <?php endif; ?>
-            </ul>
-        </div><!-- #quick-icons -->
 
 <!--添加 #mobile-trigger和#mob-menu 到header 右侧-->
         <a id="mobile-trigger" href="#mob-menu"><i class="fa fa-bars"></i></a>
@@ -92,6 +77,20 @@ if (!function_exists('clean_corporate_site_branding')) :
         </div>
 
         <div class="right-header">
+
+            <!--                添加sidebar-top小部件-->
+            <?php
+            if ( ! is_active_sidebar( 'sidebar-top' ) ) {
+                return;
+            }
+            ?>
+
+                <div class="header-social-wrapper">
+                    <div class="top-search-box"><?php  get_search_form();   ?></div>
+                    <?php dynamic_sidebar( 'sidebar-top' ); ?>
+                </div><!-- .header-social-wrapper -->
+            
+
             <div id="main-nav">
                 <nav id="site-navigation" class="main-navigation" role="navigation">
                     <div class="wrap-menu-content">
@@ -663,43 +662,23 @@ if (!function_exists('clean_corporate_header_top_content')) :
                     </div><!-- .header-social-wrapper -->
                 <?php endif; ?>
 
-<!--                添加sidebar-top小部件-->
-                <?php
-                if ( ! is_active_sidebar( 'sidebar-top' ) ) {
-                    return;
-                }
-                ?>
-                <div class="container">
-                    <div class="header-social-wrapper">
-                        <?php dynamic_sidebar( 'sidebar-top' ); ?>
-                    </div><!-- .header-social-wrapper -->
-                </div>
 
-<!--<div class="container">
-    <div class="header-social-wrapper">
-
-        <a href="mailto:support@cssecurity.com.hk"><span class="quick-icon quick-email"></span><span>support@cssecurity.com.hk</span></a>
-        <a href="tel:(+852) 2911 9500"><span class="quick-icon quick-call"></span><span>(+852) 2911 9500</span></a>
-        <a href="#"><span class="quick-icon quick-adrr"></span><span class="top-addr">香港葵興葵秀路11-15蘇濤工商中心19樓全層</span></a>
-
-    </div>
-</div>-->
 
                 <!--				注释顶部搜索框，移到导航后面-->
 
                 <!--<div id="quick-icons">
 					<ul>
-				    	<?php /* */ ?>
+				    	<?php /* */?>
 						<li class="quick-search-icon">
-						    <?php /*if ( true === $search_in_header ) : */ ?>
+						    <?php /*if ( true === $search_in_header ) :  */?>
 						    	<div class="header-search-box">
 							    	<a href="#" class="search-icon"><i class="fa fa-search"></i></a>
 							    	<div class="search-box-wrap">
-							    		<?php /*get_search_form(); */ ?>
+							    		<?php /* get_search_form();   */?>
 							    	</div>
 							    </div>
 							</li>
-						<?php /*endif; */ ?>
+						<?php /* endif;   */?>
 					</ul>
 				</div>-->
 

@@ -23,7 +23,7 @@ if ( ! function_exists( 'clean_corporate_customize_search_form' ) ) :
 	        <span class="screen-reader-text">' . _x( 'Search for:', 'label', 'clean-corporate' ) . '</span>
 	        <input type="search" class="search-field" placeholder="' . esc_attr_x( 'Search &hellip;', 'placeholder', 'clean-corporate' ) . '" value="' . get_search_query() . '" name="s" title="' . esc_attr_x( 'Search for:', 'label', 'clean-corporate' ) . '" />
 	      </label>
-	      <input type="submit" class="search-submit" value="Search" /></form>';
+	      <button type="submit" class="search-submit" ><i class="fa fa-search"></i></button></form>';
 
 		return $form;
 
