@@ -3509,7 +3509,16 @@ body.locale-zh_CN .panel-grid-cell .widget-title
     margin-bottom: 15px;
     clear: both;
 }
-.service-blk i{
+.service-blk1{
+    background: url("img/service-blk_bg1.png") no-repeat left bottom;
+    font-size: 30px;
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+    clear: both;
+    color: #fff;
+}
+.service-blk i,.service-blk1 i{
     width: 40px;
     height: 40px;
     display: inline-block;
@@ -3523,6 +3532,12 @@ body.locale-zh_CN .panel-grid-cell .widget-title
 }
 .new-icon{
     background: url("img/new-icon.png") center;
+}
+.video-icon{
+    background: url("img/function-icon.png") center;
+}
+.contact-icon{
+    background: url("img/contact-icon.png") center;
 }
 .service-more{ text-align: center;}
 .service-more a{
