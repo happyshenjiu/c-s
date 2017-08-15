@@ -3372,7 +3372,7 @@ a.link-home{
 .header-social-wrapper .top-search-box{
     float: right;
     display: inline-block;
-    margin-left: -70px;
+    margin-left:-30px;
 }
 .header-social-wrapper .widget_polylang{
     float: right;
