@@ -3547,7 +3547,7 @@ body.locale-zh_CN .panel-grid-cell .widget-title
     color: #393e44;
 }
 .service-more a:hover{
-    color: #00b9eb;
+    color: #3fc3de;
  }
 .blk-more{
     float: right;
@@ -3558,7 +3558,39 @@ body.locale-zh_CN .panel-grid-cell .widget-title
 .f15{
     font-size: 15px;
 }
-
+.contact-from input{
+    border-radius: 0;
+    border: 0;
+    background: #456c84;
+    display: inline-block;
+    padding: 12px 15px;
+    color: #fff;
+    width: 49%;
+}
+.contact-from input:focus{
+    color: #fff;
+}
+.contact-from input.wpcf7-tel{
+    margin-left: 2%;
+}
+.contact-from input.wpcf7-email{
+    width: 100%;
+}
+.contact-from textarea.wpcf7-textarea,.contact-from input.wpcf7-submit{
+    border-radius: 0;
+    border: 0;
+    background: #456c84;
+    color: #fff;
+}
+.contact-from input.wpcf7-submit{
+    text-align: center;
+}
+.contact-from input.wpcf7-submit:hover{
+    background: #32BEBF;
+}
+div.wpcf7-validation-errors{
+    color: #f7e700;
+}
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
 --------------------------------------------------------------*/
