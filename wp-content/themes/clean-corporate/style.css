@@ -2227,7 +2227,6 @@ Top header section*/
 }
 #sow-editor-3 .textwidget{
     font-size: 15px;
-    margin-left: 30px;
     font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
 }
 #footer-widgets ul {
@@ -2310,10 +2309,10 @@ Top header section*/
     margin-top: 0;
 }
 .widget_polylang li{
-    width: 17.5%;
+    width: 10%;
     float: left;
     border-right: 1px solid #45474d;
-    margin-right: 9.5%;
+    margin-right: 5%;
 }
 .widget_polylang li:last-child{
     border: 0;
@@ -3590,6 +3589,14 @@ body.locale-zh_CN .panel-grid-cell .widget-title
 }
 div.wpcf7-validation-errors{
     color: #f7e700;
+}
+.widget_contact_widget,.footer-padding-left{
+    padding-left: 30%;
+}
+.footer-padding-left{
+    color: #fff;
+    font-size: 28px;
+    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
 }
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
