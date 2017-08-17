@@ -3548,7 +3548,7 @@ body.locale-zh_CN .panel-grid-cell .widget-title
 .service-more a:hover{
     color: #3fc3de;
  }
-.blk-more{
+a.blk-more{
     float: right;
     font-size: 14px;
     color: #393e44;
