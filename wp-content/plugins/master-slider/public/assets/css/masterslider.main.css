@@ -444,7 +444,7 @@
 .ms-bullet{cursor:pointer;float: left;}
 .ms-bullets.ms-dir-h {
 	position: absolute;
-	bottom: 20px;
+	bottom: 40px;
 	right: 50%;
 	width: 100px;
 }
@@ -2136,13 +2136,13 @@ only screen and (                min-resolution: 2dppx) {
 	z-index: 110;
 	width: 45px;
 	height: 45px;
-	background: url(skins/light-skin-6.png) white;
+	background: url(skins/light-skin-6.png);
 	-webkit-background-clip: padding-box;
 	-moz-background-clip: padding-box;
 	background-clip: padding-box;
 	background-position: -88px -26px;
-	border: solid 3px rgb(112, 112, 112);
-	border-color: rgba(0, 0, 0, 0.27);
+	/*border: solid 3px rgb(112, 112, 112);*/
+	/*border-color: rgba(0, 0, 0, 0.27);*/
 	top: 50%;
 	left: 30px;
 	margin-top: -22px;
@@ -2169,8 +2169,8 @@ only screen and (                min-resolution: 2dppx) {
 
 .ms-skin-light-6 .ms-bullets.ms-dir-h {
 	position: absolute;
-	bottom: 20px;
-	right: 50%;
+	bottom: 40px;
+	right: 10%;
 	width: 100px;
 }
 
@@ -2180,14 +2180,15 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .ms-skin-light-6 .ms-bullet {
-	width: 8px;
-	height: 8px;
-	background: black;
+	width: 28px;
+	height: 28px;
+	background: #1281c4;
 	-webkit-background-clip: padding-box;
-	border: solid 3px white;
-	border-color: rgba(255, 255, 255, 0.44);
+	/*border: solid 3px white;*/
+	/*border-color: rgba(255, 255, 255, 0.44);*/
 	margin: 4px;
 	background-position: -34px -117px;
+	opacity: 0.3;
 }
 
 .ms-skin-light-6.round-skin .ms-bullet{
@@ -2195,9 +2196,10 @@ only screen and (                min-resolution: 2dppx) {
 }
 
 .ms-skin-light-6 .ms-bullet-selected {
-	background-color: white;
+	background-color: #1281c4;
 	border-color: black;
 	border-color: rgba(0, 0, 0, 0.44);
+	opacity: 1;
 }
 
 .ms-skin-light-6 .ms-tooltip{
