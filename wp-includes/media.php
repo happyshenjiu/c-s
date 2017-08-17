@@ -2461,7 +2461,7 @@ function wp_video_shortcode( $attr, $content = '' ) {
 		'preload'  => 'metadata',
 //		注释
 //		'width'    => 640,
-		'width'    => 740,
+		'width'    => 784,
 //		'height'   => 360,
 		'height'   => 460,
 		'class'    => 'wp-video-shortcode',
