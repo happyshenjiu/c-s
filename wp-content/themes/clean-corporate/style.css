@@ -3490,9 +3490,9 @@ body.locale-zh_CN .panel-grid-cell .widget-title
     font-family: "微软雅黑","黑体",Arial,sans-serif;
 }
 
-.locale-en_US .main-navigation ul li a{
+/*.locale-en_US .main-navigation ul li a{
     padding: 22px 15px;
-}
+}*/
 .locale-en_US .slider-buttons a{
     margin: 30% 10px 0 0;
 }
