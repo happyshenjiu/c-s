@@ -2824,7 +2824,7 @@ div.wpcf7 {
     color: #000;
     font-size: 18px;
 }
-.index-recent-posts .clean_corporate_widget_recent_posts .recent-posts-title a {
+.index-recent-posts .recent-posts-title a {
     color: #fff;
 }
 .clean_corporate_widget_recent_posts .recent-posts-title a:hover{
@@ -2989,6 +2989,7 @@ button.mfp-arrow, button.mfp-close {
     position: relative;
     background: url("img/blk-bottom.png") no-repeat bottom right;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
 .w80{
     width: 70%;
