@@ -2979,10 +2979,31 @@ button.mfp-arrow, button.mfp-close {
     font-weight: normal;
 }
 .blk{
-    font-size: 32px;
+    color:#11918a;
+    font-size: 29px;
     font-weight: bold;
-    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
-    color: #32bebf;
+    padding-left: 10px;
+    position: relative;
+    background: url("img/blk-bottom.png") no-repeat bottom right;
+    margin-bottom: 20px;
+}
+.w80{
+    width: 70%;
+}
+.blk:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #11918a;
+}
+.sider-link a{
+    color: #808184;
+}
+.sider-link a:hover{
+    color: #3fc3de;
 }
 .blk span{
     color: #14928b;
