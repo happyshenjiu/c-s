@@ -3222,6 +3222,7 @@ a.btn-black:hover{
     color: #32bfc0;
 }
 .menu-function-en-container ul,
+.menu-function-cn-container ul,
 .menu-function-zh-container ul{
     margin-left: 30px;
     clear: both;
