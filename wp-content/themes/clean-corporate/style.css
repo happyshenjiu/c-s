@@ -3140,6 +3140,27 @@ a.btn-black:hover{
 .recent-posts-text-wrap{
     margin-left: 30px;
 }
+
+.function-widget-cd{
+    position: relative;
+    padding-top: 16px;
+}
+.function-widget-cd .panel-grid-cell{
+    background-color: #fff;
+    border: 2px solid #119089;
+    border-top:none;
+}
+.function-widget-cd:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 31px;
+    background: url("img/function-left-blk-top.png") no-repeat left top;
+}
+
 .menu-service-en-container ul ,
 .menu-service-zh-container ul,
 .menu-function-en-container ul,
