@@ -3558,6 +3558,9 @@ body.locale-zh_CN .blk{
     font-weight: normal;
     padding-bottom: 5px;
 }
+body.locale-zh_CN h1{
+    font-weight: normal;
+}
 .service-blk{
     background: url("img/service-blk_bg.png") no-repeat left bottom;
     font-size: 30px;
