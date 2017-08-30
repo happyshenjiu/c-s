@@ -686,8 +686,8 @@ a.comment-reply-link {
 }
 .nav-links{
     border-top: medium none;
-    margin-bottom: 20px;
-    padding: 20px 0;
+    /*margin-bottom: 20px;*/
+    padding: 20px 0 0;
     overflow: hidden;
 }
 .navigation.pagination .nav-links .page-numbers {
