@@ -3554,6 +3554,9 @@ body.locale-zh_CN .panel-grid-cell .widget-title
 .locale-en_US .main-navigation ul ul a{
     padding: 9px 15px;
 }
+.locale-en_US .w80{
+    width: 85%;
+}
 body.locale-zh_CN .blk{
     font-weight: normal;
     padding-bottom: 5px;
