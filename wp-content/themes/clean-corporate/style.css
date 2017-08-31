@@ -3627,6 +3627,18 @@ a.blk-more{
     color: #fff;
     width: 49%;
 }
+.contact-from  input::-webkit-input-placeholder { /* WebKit browsers */
+    color:#fff;
+}
+.contact-from  input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#fff;
+}
+.contact-from input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:#fff;
+}
+.contact-from  input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#fff;
+}
 .contact-from input:focus{
     color: #fff;
 }
