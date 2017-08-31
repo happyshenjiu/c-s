@@ -88,7 +88,7 @@ function wpcf7_text_form_tag_handler( $tag ) {
 	$atts = wpcf7_format_atts( $atts );
 
 	$html = sprintf(
-		'<span class="wpcf7-form-control-wrap %1$s"><input %2$s onfocus="this.placeholder= \'\' " onblur="this.placeholder= \''.wpcf7_get_hangover( $tag->name, $value ).'\'"/>%3$s</span>',
+		'<span class="wpcf7-form-control-wrap %1$s"><input %2$s onfocus="this.placeholder= \'\' " onblur="this.placeholder= \''.(string) reset( $tag->values ).'\'"/>%3$s</span>',
 		sanitize_html_class( $tag->name ), $atts, $validation_error );
 
 	return $html;
