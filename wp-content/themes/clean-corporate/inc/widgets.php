@@ -936,12 +936,8 @@ if ( ! class_exists( 'Clean_Corporate_Recent_Posts_Widget' ) ) :
 								</div><!-- .recent-posts-thumb -->
 							<?php endif ?>
 							<div class="recent-posts-text-wrap">
-								<h3 class="recent-posts-title">
-									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-								</h3><!-- .recent-posts-title -->
-
 								<?php if ( false === $params['disable_date'] ) : ?>
-									<div class="recent-posts-meta">
+									<div class="recent-posts-meta col-sm-4">
 
 										<?php if ( false === $params['disable_date'] ) :  ?>
 											<span class="recent-posts-date"><?php the_time( get_option( 'date_format' ) ); ?></span><!-- .recent-posts-date -->
@@ -949,6 +945,10 @@ if ( ! class_exists( 'Clean_Corporate_Recent_Posts_Widget' ) ) :
 
 									</div><!-- .recent-posts-meta -->
 								<?php endif; ?>
+
+								<h3 class="recent-posts-title col-sm-8">
+									<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+								</h3><!-- .recent-posts-title -->
 
 							</div><!-- .recent-posts-text-wrap -->
 
