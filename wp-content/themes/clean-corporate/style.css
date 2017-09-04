@@ -3704,19 +3704,7 @@ div.wpcf7-validation-errors{
     background-size: 100%;
     padding: 6px 50px 10px 20px;
 }
-.recent-posts-date{
-}
-/*.recent-posts-meta::after{
-    display: inline-block;
-    font-family: FontAwesome;
-    width: 0;
-    height: 0;
-    content: " ";
-    border-top: 14px solid transparent;
-    border-left: 28px solid #ff0000;
-    !*border-left: 28px solid #31bebe;*!
-    border-bottom: 14px solid transparent;
-}*/
+
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
 --------------------------------------------------------------*/
@@ -3760,6 +3748,9 @@ div.wpcf7-validation-errors{
         margin-right: 30px;
         width: 65px;
         height: 76px;
+    }
+    .recent-posts-meta{
+        padding: 5px 20px 10px 10px;
     }
 }
 
@@ -3876,11 +3867,16 @@ div.wpcf7-validation-errors{
         width: 56px;
         height: 65px;
     }
-
+    .recent-posts-meta{
+        padding: 3px 20px 10px 10px;
+    }
 }
 
 /* Smaller than standard 1024 (devices and browsers) */
 @media only screen and (max-width:1023px) {
+    .recent-posts-meta{
+        padding: 1px 5px 10px 5px;
+    }
     h1 {
         font-size: 22px;
     }
@@ -4163,9 +4159,15 @@ div.wpcf7-validation-errors{
     .sidr ul li.sidr-class-page_item a{
         color: #14928b;
     }
+    .recent-posts-meta{
+        padding: 13px 50px 10px 20px;
+    }
 }
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width:767px) {
+    .recent-posts-meta{
+        padding: 6px 50px 10px 20px;
+    }
     .home .entry-content-wrapper .entry-content{
         margin: -25px 0 0 0;
     }
@@ -4386,6 +4388,9 @@ div.wpcf7-validation-errors{
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:550px) {
+    .recent-posts-meta{
+        padding: 3px 30px 10px 10px;
+    }
     #main-slider .cycle-caption p {
         display: none;
     }
@@ -4440,6 +4445,13 @@ div.wpcf7-validation-errors{
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:479px) {
+    .recent-posts-meta{
+        padding: 0 5px 10px 3px;
+        font-size: 12px;
+    }
+    .clean_corporate_widget_recent_posts .recent-posts-title{
+        line-height:1;
+    }
     .home .entry-content-wrapper .entry-content{
         margin: -15px 0 0 0;
     }
