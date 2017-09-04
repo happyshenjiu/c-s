@@ -2845,9 +2845,11 @@ div.wpcf7 {
     font-family: FontAwesome;
     height: 15px;
     margin-right:8px;
-    content: "\f017";
-    color: #32bfc0;
+    /*content: "\f017";*/
+    /*color: #fff;*/
+
 }
+
 /*MFP gallery*/
 .mfp-bg {
     z-index: 99999;
@@ -3139,7 +3141,7 @@ a.btn-black:hover{
     margin-left: 30px;
 }
 .recent-posts-text-wrap{
-    margin-left: 30px;
+    /*margin-left: 30px;*/
 }
 
 .function-widget-cd{
@@ -3313,7 +3315,7 @@ a.btn-black:hover{
 .menu-function-cn-container ul li:nth-child(14){
     background: url("img/icon-solution-14.png") no-repeat top left;
 }
-.menu-function-en-container ul li:nth-child(15),
+/*.menu-function-en-container ul li:nth-child(15),
 .menu-function-zh-container ul li:nth-child(15),
 .menu-function-cn-container ul li:nth-child(15){
     background: url("img/icon-solution-15.png") no-repeat top left;
@@ -3332,7 +3334,7 @@ a.btn-black:hover{
 .menu-function-zh-container ul li:nth-child(18),
 .menu-function-cn-container ul li:nth-child(18){
     background: url("img/icon-solution-18.png") no-repeat top left;
-}
+}*/
 .menu-function-en-container ul li a,
 .menu-function-zh-container ul li a,
 .menu-function-cn-container ul li a{
@@ -3687,6 +3689,34 @@ div.wpcf7-validation-errors{
     font-size: 28px;
     /*font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;*/
 }
+.col-sm-8,.col-sm-4{
+    float: left;
+}
+.col-sm-8{
+    width: 66.66666667%;
+}
+.col-sm-4{
+    width: 30%;
+    margin-right: 3.33333333%;
+}
+.recent-posts-meta{
+    background: url("img/post-title.png") no-repeat;
+    background-size: 100%;
+    padding: 6px 50px 10px 20px;
+}
+.recent-posts-date{
+}
+/*.recent-posts-meta::after{
+    display: inline-block;
+    font-family: FontAwesome;
+    width: 0;
+    height: 0;
+    content: " ";
+    border-top: 14px solid transparent;
+    border-left: 28px solid #ff0000;
+    !*border-left: 28px solid #31bebe;*!
+    border-bottom: 14px solid transparent;
+}*/
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
 --------------------------------------------------------------*/
