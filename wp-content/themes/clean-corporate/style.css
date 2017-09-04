@@ -2833,7 +2833,7 @@ div.wpcf7 {
 }
 .clean_corporate_widget_recent_posts .recent-posts-item {
     clear: both;
-    margin-top: 30px;
+    margin-top: 36px;
 }
 .clean_corporate_widget_recent_posts .recent-posts-item::after {
     clear: both;
@@ -4086,7 +4086,7 @@ div.wpcf7-validation-errors{
     .clean_corporate_widget_recent_posts .recent-posts-item {
         clear: both;
         float: left;
-        margin-top: 36px;
+        margin-top: 30px;
         width: 100%;
     }
     .site-branding {
