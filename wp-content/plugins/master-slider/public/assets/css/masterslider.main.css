@@ -1491,7 +1491,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-light-2 .ms-slide .ms-slide-vcbtn,
 	.ms-skin-light-2 .ms-nav-next,
 	.ms-skin-light-2 .ms-nav-prev{
-		background-image:url(skins/light-skin-2-retina.png);
+		/*background-image:url(skins/light-skin-2-retina.png);*/
 		background-size: 152px 225px;
 	}
 	
@@ -1517,7 +1517,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-3 .ms-slide .ms-slide-vcbtn {
 	width: 31px;
 	height: 29px;
-	background: url(skins/light-skin-3.png) no-repeat -26px -28px;
+	/*background: url(skins/light-skin-3.png) no-repeat -26px -28px;*/
 	top: 30px;
 	right: 30px;
 }
@@ -1527,7 +1527,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-3 .ms-nav-next,
 .ms-skin-light-3 .ms-nav-prev {
 	width: 50px;
-	background: url(skins/light-skin-3.png);
+	/*background: url(skins/light-skin-3.png);*/
 	background-position: -82px -22px;
 	height: 50px;
 	cursor: pointer;
@@ -1558,7 +1558,7 @@ only screen and (                min-resolution: 2dppx) {
 .ms-skin-light-3 .ms-bullet {
 	width: 16px;
 	height: 16px;
-	background: url(skins/light-skin-3.png) no-repeat;
+	/*background: url(skins/light-skin-3.png) no-repeat;*/
 	background-position: -31px -114px;
 	margin: 4px;
 }
