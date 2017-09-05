@@ -3575,9 +3575,7 @@ body.locale-zh_CN .blk{
 body.locale-zh_CN h1{
     font-weight: normal;
 }
-.locale-en_US  #footer-widgets ul li {
-    font-family: "GillSans ExtraBold",sans-serif;
-}
+
 .service-blk{
     background: url("img/service-blk_bg.png") no-repeat left bottom;
     font-size: 30px;
