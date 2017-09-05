@@ -2217,7 +2217,7 @@ Top header section*/
 #footer-widgets .widget-title {
     /*font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;*/
     font-size: 18px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: #ffffff;
     display: inline-block;
     margin-bottom: 18px;
@@ -2249,6 +2249,7 @@ Top header section*/
 }
 .footer-padding-left p{
     margin: 0;
+    font-weight: bold;
 }
 #footer-widgets ul.menu{
     width: 80%;
