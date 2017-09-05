@@ -2242,7 +2242,7 @@ Top header section*/
     color: #dddddd;
     font-size: 14px;
     /*font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;*/
-    font-family: "GillSans ExtraBold",sans-serif;
+    /*font-family: "GillSans ExtraBold",sans-serif;*/
     font-weight: lighter;
     margin-bottom: 10px;
     line-height: 20px;
@@ -3574,6 +3574,9 @@ body.locale-zh_CN .blk{
 }
 body.locale-zh_CN h1{
     font-weight: normal;
+}
+.locale-en_US  #footer-widgets ul li {
+    font-family: "GillSans ExtraBold",sans-serif;
 }
 .service-blk{
     background: url("img/service-blk_bg.png") no-repeat left bottom;
