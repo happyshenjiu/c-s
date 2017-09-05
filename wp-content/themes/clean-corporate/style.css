@@ -2242,9 +2242,13 @@ Top header section*/
     color: #dddddd;
     font-size: 14px;
     /*font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;*/
+    font-family: "GillSans ExtraBold",sans-serif;
     font-weight: lighter;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     line-height: 20px;
+}
+.footer-padding-left h3{
+    margin: 0;
 }
 #footer-widgets ul.menu{
     width: 80%;
@@ -3728,6 +3732,9 @@ div.wpcf7-validation-errors{
     }
     .index-company{
         font-size: 65px;
+    }
+    .contact-from input{
+        padding: 8px 15px;
     }
 }
 
