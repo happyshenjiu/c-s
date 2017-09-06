@@ -3729,6 +3729,9 @@ div.wpcf7-validation-errors{
     background-size: 100%;
     padding: 6px 50px 10px 20px;
 }
+.your-company input,.your-email input{
+    margin-left: 2%;
+}
 
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
