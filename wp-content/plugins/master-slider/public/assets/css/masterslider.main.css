@@ -1673,7 +1673,7 @@ only screen and (                min-resolution: 2dppx) {
 	.ms-skin-light-3 .ms-nav-next,
 	.ms-skin-light-3 .ms-nav-prev,
 	.ms-skin-light-3 .ms-bullet{
-		background-image:url(skins/light-skin-3-retina.png);
+		background-image:url(light-skin-3-retina.png);
 		background-size: 152px 225px;
 	}
 	
