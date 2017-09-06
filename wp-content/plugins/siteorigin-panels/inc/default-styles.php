@@ -339,6 +339,7 @@ class SiteOrigin_Panels_Default_Styling {
 			}
 		}
 
+		
 		// We need the style wrapper if there is padding or mobile padding
 		if( ! empty( $args[ 'padding' ] ) || ! empty( $args[ 'mobile_padding' ] ) ) {
 			$attributes['class'][] = 'panel-row-style';
