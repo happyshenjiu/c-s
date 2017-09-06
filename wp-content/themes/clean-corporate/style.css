@@ -3353,7 +3353,7 @@ a.btn-black:hover{
 }
 
 .xiezhu span.wpcf7-form-control-wrap{
-    width: 50%;
+    width: 49%;
     display: inline-block;
 }
 .xiezhu span.your-message{
@@ -3362,8 +3362,7 @@ a.btn-black:hover{
 .xiezhu span.wpcf7-form-control-wrap input{
     width: 100%;
 }
-.your-company input,.your-email input{
-    width: 98%;
+.your-company,.your-email{
     margin-left: 2%;
     margin-right: 0;
 }
