@@ -3424,7 +3424,7 @@ ul.zhixun-lc li{
     margin-left: 10px;
     margin-top: 5px;
 }
-.header-social-wrapper aside .widget_nav_menu li a{
+.header-social-wrapper aside.widget_nav_menu li a{
     background: #11918a;
     padding: 5px 10px;
     margin-right: 10px;
