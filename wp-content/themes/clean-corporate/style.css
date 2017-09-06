@@ -3362,7 +3362,7 @@ a.btn-black:hover{
 .xiezhu span.wpcf7-form-control-wrap input{
     width: 100%;
 }
-.your-company,.your-email{
+.xiezhu .your-company,.xiezhu .your-email{
     margin-left: 2%;
     margin-right: 0;
 }
