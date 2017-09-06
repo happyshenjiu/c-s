@@ -3737,6 +3737,9 @@ div.wpcf7-validation-errors{
     width: 50%;
     display: inline-block;
 }
+.xiezhu span.your-message{
+    width: 100%;
+}
 .xiezhu span.wpcf7-form-control-wrap input{
     width: 100%;
 }
