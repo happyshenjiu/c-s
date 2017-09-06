@@ -126,7 +126,7 @@
 				console.log( err.message );
 				$$.css( {
 					'background-size': options.backgroundSizing === 'scaled' ? 'cover' : 'auto',
-					'background-position': '41% 50%'
+					'background-position': '50% 50%'
 				} );
 			}
 		};
