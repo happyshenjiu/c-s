@@ -105,7 +105,7 @@
 						topPosition = - ( backgroundHeight - wrapperSize[1] ) * percent;
 					}
 
-					$$.css( 'background-position', '41% ' + topPosition + 'px' );
+					$$.css( 'background-position', '50% ' + topPosition + 'px' );
 
 				} else if( options.backgroundSizing === 'original' ) {
 					// See scaled version or explanation of this code.
@@ -119,14 +119,14 @@
 
 					// This is a version with no scaling
 					$$.css( 'background-size', 'auto' );
-					$$.css( 'background-position', '41% ' + topPosition + 'px' );
+					$$.css( 'background-position', '50% ' + topPosition + 'px' );
 				}
 			}
 			catch( err ) {
 				console.log( err.message );
 				$$.css( {
 					'background-size': options.backgroundSizing === 'scaled' ? 'cover' : 'auto',
-					'background-position': '41% 50%'
+					'background-position': '50% 50%'
 				} );
 			}
 		};
