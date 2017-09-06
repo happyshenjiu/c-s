@@ -3351,10 +3351,7 @@ a.btn-black:hover{
     /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;*/
     font-size: 20px;
 }
-.your-company input,.your-email input{
-    margin-left: 2%;
-    margin-right: 0;
-}
+
 .xiezhu span.wpcf7-form-control-wrap{
     width: 50%;
     display: inline-block;
@@ -3365,7 +3362,11 @@ a.btn-black:hover{
 .xiezhu span.wpcf7-form-control-wrap input{
     width: 100%;
 }
-
+.your-company input,.your-email input{
+    width: 98%;
+    margin-left: 2%;
+    margin-right: 0;
+}
 .xiezhu input{
     border-radius: 0;
     background: transparent;
