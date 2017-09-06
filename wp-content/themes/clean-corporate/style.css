@@ -3568,8 +3568,11 @@ body.locale-zh_CN .panel-grid-cell .widget-title
 }
 .locale-en_US .w80{
     width: 85%;
+}
+.line-height22{
     line-height: 22px;
     word-spacing: -8px;
+    padding-bottom:10px;
 }
 body.locale-zh_CN .blk{
     font-weight: normal;
