@@ -3351,6 +3351,20 @@ a.btn-black:hover{
     /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;*/
     font-size: 20px;
 }
+.your-company input,.your-email input{
+    margin-left: 2%;
+    margin-right: 0;
+}
+.xiezhu span.wpcf7-form-control-wrap{
+    width: 50%;
+    display: inline-block;
+}
+.xiezhu span.your-message{
+    width: 100%;
+}
+.xiezhu span.wpcf7-form-control-wrap input{
+    width: 100%;
+}
 
 .xiezhu input{
     border-radius: 0;
@@ -3358,9 +3372,6 @@ a.btn-black:hover{
     border: 1px solid #339592;
     padding: 7px;
     color: #cbcbcb;
-    width: 48%;
-    float: left;
-    margin-right: 2%;
     /*font-family: "MHeiHK", Arial, sans-serif;*/
     font-weight: lighter;
     font-size: 14px;
@@ -3728,20 +3739,6 @@ div.wpcf7-validation-errors{
     background: url("img/post-title.png") no-repeat;
     background-size: 100%;
     padding: 6px 50px 10px 20px;
-}
-.your-company input,.your-email input{
-    margin-left: 2%;
-    margin-right: 0;
-}
-.xiezhu span.wpcf7-form-control-wrap{
-    width: 50%;
-    display: inline-block;
-}
-.xiezhu span.your-message{
-    width: 100%;
-}
-.xiezhu span.wpcf7-form-control-wrap input{
-    width: 100%;
 }
 
 /*--------------------------------------------------------------
