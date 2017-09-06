@@ -105,7 +105,7 @@
 						topPosition = - ( backgroundHeight - wrapperSize[1] ) * percent;
 					}
 
-					$$.css( 'background-position', '50% ' + topPosition + 'px' );
+					$$.css( 'background-position', '41% ' + topPosition + 'px' );
 
 				} else if( options.backgroundSizing === 'original' ) {
 					// See scaled version or explanation of this code.
