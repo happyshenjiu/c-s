@@ -119,7 +119,7 @@
 
 					// This is a version with no scaling
 					$$.css( 'background-size', 'auto' );
-					$$.css( 'background-position', '50% ' + topPosition + 'px' );
+					$$.css( 'background-position', '41% ' + topPosition + 'px' );
 				}
 			}
 			catch( err ) {
