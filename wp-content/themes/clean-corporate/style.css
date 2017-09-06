@@ -3821,7 +3821,7 @@ div.wpcf7-validation-errors{
         font-size: 18px;
     }
     .blk{
-        font-size: 32px;
+        font-size: 28px;
     }
     .container {
         width: 100%;
@@ -4420,6 +4420,9 @@ div.wpcf7-validation-errors{
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:550px) {
+    .blk{
+        font-size: 20px;
+    }
     .recent-posts-meta{
         padding: 3px 30px 10px 10px;
     }
