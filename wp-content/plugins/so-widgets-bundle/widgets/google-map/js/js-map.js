@@ -398,8 +398,7 @@ jQuery(function ($) {
 			}
 		});
 
-		// var apiUrl = 'https://maps.googleapis.com/maps/api/js?v=3.exp&callback=soGoogleMapInitialize';
-		var apiUrl = 'https://maps.googleapis.com/maps/api/js?libraries=places&key=your_api_key_here';
+		var apiUrl = 'https://maps.googleapis.com/maps/api/js?v=3.exp&callback=soGoogleMapInitialize';
 		if(libraries && libraries.length) {
 			apiUrl += '&libraries=' + libraries.join(',');
 		}
