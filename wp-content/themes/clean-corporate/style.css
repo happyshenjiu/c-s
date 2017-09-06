@@ -3379,15 +3379,16 @@ a.btn-black:hover{
 
 .xiezhu input.wpcf7-submit{
     border-radius: 0;
-    background: #44b0ac;
+    background: transparent;
     padding: 7px;
     text-align: center;
-    color: #227a78;
+    border: 1px solid #fff;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0,0,0,0.4);
 }
 .xiezhu input.wpcf7-submit:hover{
     background: transparent;
-    border: 1px solid #339592;
-    color: #cbcbcb;
+    border: 1px solid #1b7ab5;
 }
 ul.zhixun-lc{
     clear: both;
