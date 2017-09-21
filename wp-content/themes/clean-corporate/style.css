@@ -3804,11 +3804,9 @@ div.wpcf7-validation-errors{
     .main-navigation ul li a{
         font-size: 15px;
         padding: 5px 20px;
-        margin: 17px 0;
     }
     .locale-en_US .main-navigation ul li a{
         padding: 5px 10px;
-        margin: 17px 0;
     }
     #quick-icons{
         margin-top: 20px;
@@ -4014,7 +4012,6 @@ div.wpcf7-validation-errors{
     }
     .main-navigation ul li a{
         padding: 5px 10px;
-        margin: 17px 0;
     }
     .panel-grid-cell .widget-title,
     .recent-posts-text-wrap{
