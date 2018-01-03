@@ -51,7 +51,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Roboto|Source+Sans+Pro|Arial+MT');/*引入网页字体*/
 html {
-    font-family: "Adobe Fan Heiti Std B","黑体", Arial,sans-serif;
+    /*font-family: "Adobe Fan Heiti Std B","黑体", Arial,sans-serif;*/
+    font-family: Sans-serif;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust:     100%;
     box-sizing: border-box;
@@ -164,7 +165,7 @@ textarea {
     margin: 0;
     outline: none;
     resize: none;
-    font-family: "Adobe Fan Heiti Std B","黑体", Arial,sans-serif;
+    /*font-family: "Adobe Fan Heiti Std B","黑体", Arial,sans-serif;*/
 }
 button {
     overflow: visible;
@@ -245,7 +246,7 @@ textarea {
 }
 body {
     color: #727272;
-    font-family:"Adobe Fan Heiti Std B", Arial,sans-serif;
+    /*font-family:"Adobe Fan Heiti Std B", Arial,sans-serif;*/
     font-size: 14px;
     font-weight: 400;
     /*letter-spacing: 0.2px;*/
@@ -267,7 +268,7 @@ h4,
 h5,
 h6{
    color:#222;
-   font-family:"Roboto","Adobe Fan Heiti Std B",sans-serif;
+   /*font-family:"Roboto","Adobe Fan Heiti Std B",sans-serif;*/
    font-weight: normal;
 }
 h1 {
@@ -463,7 +464,7 @@ input[type="date"]{
 select {
     /*width: 100%;*/
     padding:10px 5px;
-    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif , Arial;
+    /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif , Arial;*/
     font-size: 22px;
 }
 textarea {
@@ -555,11 +556,13 @@ a:active {
     border: medium none;
     color: #5d5d5d;
     display: block;
-    /*font-size: 18px;*/
-    padding: 5px 35px 21px;
+    /*font-size: 18px;
+    padding: 5px 35px 21px;*/
+    padding: 5px 35px 5px 35px;
+    margin-bottom: 16px;
     position: relative;
     z-index: 99;
-    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif;
+    /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif;*/
 }
 .main-navigation ul ul a {
     border-bottom: 1px solid #2a9495;
@@ -581,7 +584,8 @@ a:active {
 .main-navigation  ul  li.current_page_item > a,
 .main-navigation  ul li:hover > a ,
 .main-navigation  ul li.current-menu-parent > a{
-    color:#14928b;
+    color:#fff;
+    background-color: #14928b;
 }
 .main-navigation ul li.menu-item-has-children > a::after,
 .main-navigation ul li.page_item_has_children > a::after {
@@ -686,8 +690,8 @@ a.comment-reply-link {
 }
 .nav-links{
     border-top: medium none;
-    margin-bottom: 20px;
-    padding: 20px 0;
+    /*margin-bottom: 20px;*/
+    padding: 20px 0 0;
     overflow: hidden;
 }
 .navigation.pagination .nav-links .page-numbers {
@@ -858,7 +862,7 @@ a.comment-reply-link {
     position: relative;
 }
 .widget-subtitle {
-    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif;
+    /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif;*/
     font-size: 26px;
     color: #000;
     border-bottom: 3px solid #32bfc0;
@@ -1442,7 +1446,7 @@ Top header section*/
 }
 #site-identity .site-title{
     color: #504b49;
-    font-family: "CHei2HK-Xbold","Adobe Fan Heiti Std B", Arial, sans-serif;
+    /*font-family: "CHei2HK-Xbold","Adobe Fan Heiti Std B", Arial, sans-serif;*/
     /*font-weight: bolder;*/
     font-size: 18px;
 }
@@ -1461,7 +1465,7 @@ Top header section*/
     font-weight: bold;
     font-style: italic;
     cursor: pointer;
-    font-family: "Arial MT","Adobe Fan Heiti Std B", Arial, sans-serif;
+    /*font-family: "Arial MT","Adobe Fan Heiti Std B", Arial, sans-serif;*/
 }
 .right-head {
     float: right;
@@ -1926,7 +1930,7 @@ Top header section*/
     max-width: 280px;
     margin-top: 6%;
     color: #fff;
-    font-family:"Adobe Fan Heiti Std B", Arial, "Bitstream Vera Sans", sans-serif;
+    /*font-family:"Adobe Fan Heiti Std B", Arial, "Bitstream Vera Sans", sans-serif;*/
     font-size: 20px;
     font-style: italic;
     margin-bottom: 15px;
@@ -1938,7 +1942,7 @@ Top header section*/
 #main-slider h3 a {
     color:#fff;
     font-size: 84px;
-    font-family: "Adobe Fan Heiti Std B", 'Source Sans Pro',sans-serif,Arial;
+    /*font-family: "Adobe Fan Heiti Std B", 'Source Sans Pro',sans-serif,Arial;*/
     font-weight: bold;
     text-shadow: 5px 5px 7px rgba(0,0,0,.6);
 }
@@ -2066,7 +2070,7 @@ Top header section*/
 }
 .sidebar .widget-title {
     position: relative;
-    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif ;
+    /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif ;*/
     font-size: 26px;
     color:#000;
     border-bottom: 3px solid #32bfc0;
@@ -2211,9 +2215,9 @@ Top header section*/
     text-align: center;
 }
 #footer-widgets .widget-title {
-    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
+    /*font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;*/
     font-size: 18px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     color: #ffffff;
     display: inline-block;
     margin-bottom: 18px;
@@ -2222,12 +2226,12 @@ Top header section*/
 }
 #footer-widgets .textwidget{
     font-size: 14px;
-    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
+    /*font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;*/
     font-weight: lighter;
 }
 #sow-editor-3 .textwidget{
     font-size: 15px;
-    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
+    /*font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;*/
 }
 #footer-widgets ul {
     list-style: none;
@@ -2237,10 +2241,15 @@ Top header section*/
     position: relative;
     color: #dddddd;
     font-size: 14px;
-    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
+    /*font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;*/
+    /*font-family: "GillSans ExtraBold",sans-serif;*/
     font-weight: lighter;
-    margin-bottom: 20px;
+    margin-bottom: 11px;
     line-height: 20px;
+}
+.footer-padding-left p{
+    margin: -7px 0 0 0;
+    font-weight: bold;
 }
 #footer-widgets ul.menu{
     width: 80%;
@@ -2258,7 +2267,7 @@ Top header section*/
 #footer-widgets a {
     color: #dddddd;
     font-size: 16px;
-    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
+    /*font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;*/
     font-weight: lighter;
 }
 #footer-widgets li:hover a {
@@ -2673,6 +2682,12 @@ div.wpcf7 {
     border-bottom: 1px dashed #dddddd;
     margin-bottom: 10px;
     padding-bottom: 10px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
 }
 .clean_corporate_widget_latest_news .latest-news-col-3 .latest-news-item {
     width: 33.33%;
@@ -2697,6 +2712,24 @@ div.wpcf7 {
 }
 .clean_corporate_widget_latest_news .latest-news-summary > p {
     margin: 0;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    position: relative; 
+    line-height: 20px; 
+    max-height: 40px;
+    overflow: hidden;
+}
+.clean_corporate_widget_latest_news .latest-news-summary > p::after,
+.clean_corporate_widget_latest_news .latest-news-summary > p:after{
+    content: "..."; position: absolute; bottom: 0; right: 0; padding-left: 40px;
+    background: -webkit-linear-gradient(left, transparent, #fff 55%);
+    background: -o-linear-gradient(right, transparent, #fff 55%);
+    background: -moz-linear-gradient(right, transparent, #fff 55%);
+    background: linear-gradient(to right, transparent, #fff 55%);
 }
 .clean_corporate_widget_latest_news .latest-news-meta::after {
     clear: both;
@@ -2817,7 +2850,7 @@ div.wpcf7 {
 }
 .clean_corporate_widget_recent_posts .recent-posts-title {
     font-size: 18px;
-    line-height: 1.3;
+    line-height: 2;
     margin-bottom: 10px;
 }
 .clean_corporate_widget_recent_posts .recent-posts-title a {
@@ -2844,9 +2877,11 @@ div.wpcf7 {
     font-family: FontAwesome;
     height: 15px;
     margin-right:8px;
-    content: "\f017";
-    color: #32bfc0;
+    /*content: "\f017";*/
+    /*color: #fff;*/
+
 }
+
 /*MFP gallery*/
 .mfp-bg {
     z-index: 99999;
@@ -2957,7 +2992,7 @@ button.mfp-arrow, button.mfp-close {
     line-height: 62px;
     color: #fff;
     font-style: italic;
-    font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
+    /*font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;*/
     font-weight: bold;
     position: absolute;
     top: 0;
@@ -2976,7 +3011,7 @@ button.mfp-arrow, button.mfp-close {
 }
 .service_title span{
     font-size: 26px;
-    font-family: 'Source Sans Pro','Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif, Arial;
+    /*font-family: 'Source Sans Pro','Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif, Arial;*/
     font-style: italic;
     color: #129e95;
     font-weight: normal;
@@ -3017,13 +3052,13 @@ button.mfp-arrow, button.mfp-close {
 }
 .offer-title{
     font-size: 27px;
-    font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
+    /*font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;*/
     font-style: italic;
     color: #000;
 }
 .offer-description{
     font-size: 20px;
-    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
+    /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;*/
     color: #666;
     word-wrap: break-word;
     line-height: 24px;
@@ -3031,7 +3066,7 @@ button.mfp-arrow, button.mfp-close {
 
 .index-company{
     font-size: 75px;
-    font-family: "Adobe Fan Heiti Std B",'Source Sans Pro Black', 'Source Sans Pro',sans-serif,Arial;
+    /*font-family: "Adobe Fan Heiti Std B",'Source Sans Pro Black', 'Source Sans Pro',sans-serif,Arial;*/
     color: #fff;
     width: 60%;
     line-height: 90px;
@@ -3039,7 +3074,7 @@ button.mfp-arrow, button.mfp-close {
 }
 a.btn-company{
     font-size: 24px;
-    font-family: 'Source Sans Pro Semibold','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
+    /*font-family: 'Source Sans Pro Semibold','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;*/
     color: #fff;
     border:5px solid #32bfc0;
     padding: 8px 60px;
@@ -3059,7 +3094,7 @@ a.btn-company:hover{
     color: #fff;
 }
 .contact-blk{
-    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;
+    /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;*/
     font-style: italic;
     font-weight: bold;
     font-size: 28px;
@@ -3068,12 +3103,12 @@ a.btn-company:hover{
     margin-top: 36px;
 }
 .blk-info{
-    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;
+    /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;*/
     font-size: 21px;
     color: #666;
 }
 .coantact-blk-small{
-    font-family:'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;
+    /*font-family:'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;*/
     font-size:22px;
     color:#000;
     margin-left: 30px;
@@ -3103,7 +3138,7 @@ a.btn-company:hover{
     /*font-size: 58px;*/
     font-size: 28px;
     text-align: center;
-    font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;
+    /*font-family: 'Source Sans Pro Black','Source Sans Pro',"Adobe Fan Heiti Std B", sans-serif,Arial;*/
     /*margin-bottom: 30px;*/
 }
 .link-cantact p{
@@ -3112,14 +3147,14 @@ a.btn-company:hover{
 }
 a.btn-black{
     color: #fff;
-    font-family: 'Source Sans Pro Semibold',"Adobe Fan Heiti Std B",sans-serif ,Arial;
+    /*font-family: 'Source Sans Pro Semibold',"Adobe Fan Heiti Std B",sans-serif ,Arial;*/
     font-size: 18px;
     padding: 4px 30px;
     font-style: normal;
     border: 1px solid #fff;
     margin-top: 15px;
     display: inline-block;
-    text-shadow: 1px 1px rgba(0,0,0,0.4);
+    /*text-shadow: 1px 1px rgba(0,0,0,0.4);*/
 }
 a.btn-black:after{
     content: "";
@@ -3131,14 +3166,14 @@ a.btn-black:hover{
     border: 1px solid #1b7ab5;
 }
 .panel-grid-cell .widget-title{
-    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif ;
+    /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",Arial,sans-serif ;*/
     font-size: 26px;
     color:#000;
     border-bottom: 3px solid #32bfc0;
     margin-left: 30px;
 }
 .recent-posts-text-wrap{
-    margin-left: 30px;
+    /*margin-left: 30px;*/
 }
 
 .function-widget-cd{
@@ -3180,7 +3215,7 @@ a.btn-black:hover{
     list-style: none;
     background: #21242b;
     border-bottom: 1px solid #35373d;
-    font-family: 'Source Sans Pro Semibold',"Adobe Fan Heiti Std B",sans-serif ,Arial;
+    /*font-family: 'Source Sans Pro Semibold',"Adobe Fan Heiti Std B",sans-serif ,Arial;*/
     font-size: 27px;
     position: relative;
 }
@@ -3312,7 +3347,7 @@ a.btn-black:hover{
 .menu-function-cn-container ul li:nth-child(14){
     background: url("img/icon-solution-14.png") no-repeat top left;
 }
-.menu-function-en-container ul li:nth-child(15),
+/*.menu-function-en-container ul li:nth-child(15),
 .menu-function-zh-container ul li:nth-child(15),
 .menu-function-cn-container ul li:nth-child(15){
     background: url("img/icon-solution-15.png") no-repeat top left;
@@ -3331,26 +3366,37 @@ a.btn-black:hover{
 .menu-function-zh-container ul li:nth-child(18),
 .menu-function-cn-container ul li:nth-child(18){
     background: url("img/icon-solution-18.png") no-repeat top left;
-}
+}*/
 .menu-function-en-container ul li a,
 .menu-function-zh-container ul li a,
 .menu-function-cn-container ul li a{
     color: #666;
     padding-left: 20px;
-    font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;
+    /*font-family: 'Source Sans Pro',"Adobe Fan Heiti Std B",sans-serif ,Arial;*/
     font-size: 20px;
 }
 
+.xiezhu span.wpcf7-form-control-wrap{
+    width: 49%;
+    display: inline-block;
+}
+.xiezhu span.your-message{
+    width: 100%;
+}
+.xiezhu span.wpcf7-form-control-wrap input{
+    width: 100%;
+}
+.xiezhu .your-company,.xiezhu .your-email{
+    margin-left: 2%;
+    margin-right: 0;
+}
 .xiezhu input{
     border-radius: 0;
     background: transparent;
     border: 1px solid #339592;
     padding: 7px;
     color: #cbcbcb;
-    width: 48%;
-    float: left;
-    margin-right: 2%;
-    font-family: "MHeiHK", Arial, sans-serif;
+    /*font-family: "MHeiHK", Arial, sans-serif;*/
     font-weight: lighter;
     font-size: 14px;
 }
@@ -3361,22 +3407,23 @@ a.btn-black:hover{
     border: 1px solid #339592;
     padding: 7px;
     color: #cbcbcb;
-    font-family: "MHeiHK", Arial, sans-serif;
+    /*font-family: "MHeiHK", Arial, sans-serif;*/
     font-weight: lighter;
     font-size: 14px;
 }
 
 .xiezhu input.wpcf7-submit{
     border-radius: 0;
-    background: #44b0ac;
+    background: transparent;
     padding: 7px;
     text-align: center;
-    color: #227a78;
+    border: 1px solid #fff;
+    color: #fff;
+    text-shadow: 1px 1px rgba(0,0,0,0.4);
 }
 .xiezhu input.wpcf7-submit:hover{
     background: transparent;
-    border: 1px solid #339592;
-    color: #cbcbcb;
+    border: 1px solid #1b7ab5;
 }
 ul.zhixun-lc{
     clear: both;
@@ -3413,7 +3460,16 @@ ul.zhixun-lc li{
     margin-left: 10px;
     margin-top: 5px;
 }
-a.link-home{
+.header-social-wrapper aside.widget_nav_menu li{
+    list-style: none;
+}
+.header-social-wrapper aside.widget_nav_menu li a{
+    background: transparent;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #333;
+}
+.header-social-wrapper aside.widget_nav_menu li.current-menu-item a{
     background: #11918a;
     padding: 5px 10px;
     margin-right: 10px;
@@ -3460,14 +3516,15 @@ a.link-home{
 .help-title{
     font-size: 32px;
     text-align: center;
-    font-family: 'Source Sans Pro Black','Source Sans Pro',Arial,sans-serif;
+    /*font-family: 'Source Sans Pro Black','Source Sans Pro',Arial,sans-serif;*/
+    font-family: Sans-serif;
     display: block;
 }
 
 .help-info{
     text-align: center;
     font-size:20px;
-    font-family:"MHeiHK",Arial,sans-serif;
+    /*font-family:"MHeiHK",Arial,sans-serif;*/
     font-weight:bold;
 }
 
@@ -3542,7 +3599,7 @@ body.locale-zh_CN .link-cantact,
 body.locale-zh_CN a.btn-black,
 body.locale-zh_CN .panel-grid-cell .widget-title
 {
-    font-family: "微软雅黑","黑体",Arial,sans-serif;
+    /*font-family: "微软雅黑","黑体",Arial,sans-serif;*/
 }
 
 /*.locale-en_US .main-navigation ul li a{
@@ -3553,6 +3610,21 @@ body.locale-zh_CN .panel-grid-cell .widget-title
 }
 .locale-en_US .main-navigation ul ul a{
     padding: 9px 15px;
+}
+.locale-en_US .w80{
+    width: 85%;
+}
+.line-height22{
+    line-height: 22px;
+    word-spacing: -8px;
+    padding-bottom:10px;
+}
+body.locale-zh_CN .blk{
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+body.locale-zh_CN h1{
+    font-weight: normal;
 }
 
 .service-blk{
@@ -3621,6 +3693,30 @@ a.blk-more{
     color: #fff;
     width: 49%;
 }
+.contact-from  input::-webkit-input-placeholder,
+.contact-from  textarea::-webkit-input-placeholder,
+.xiezhu input::-webkit-input-placeholder,
+.xiezhu textarea::-webkit-input-placeholder{ /* WebKit browsers */
+    color:#fff;
+}
+.contact-from  input:-moz-placeholder,
+.contact-from  textarea:-moz-placeholder,
+.xiezhu  input:-moz-placeholder,
+.xiezhu  textarea:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:#fff;
+}
+.contact-from input::-moz-placeholder,
+.contact-from textarea::-moz-placeholder ,
+.xiezhu input::-moz-placeholder,
+.xiezhu textarea::-moz-placeholder{ /* Mozilla Firefox 19+ */
+    color:#fff;
+}
+.contact-from  input:-ms-input-placeholder,
+.contact-from  textarea:-ms-input-placeholder ,
+.xiezhu  input:-ms-input-placeholder,
+.xiezhu  textarea:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:#fff;
+}
 .contact-from input:focus{
     color: #fff;
 }
@@ -3651,8 +3747,24 @@ div.wpcf7-validation-errors{
 .footer-padding-left{
     color: #fff;
     font-size: 28px;
-    font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;
+    /*font-family: "MHeiHK","Adobe Fan Heiti Std B",Arial,sans-serif;*/
 }
+.col-sm-8,.col-sm-4{
+    float: left;
+}
+.col-sm-8{
+    width: 66.66666667%;
+}
+.col-sm-4{
+    width: 30%;
+    margin-right: 3.33333333%;
+}
+.recent-posts-meta{
+    background: url("img/post-title.png") no-repeat;
+    background-size: 100%;
+    padding: 6px 50px 10px 20px;
+}
+
 /*--------------------------------------------------------------
 ##  Media Queries By WEN Themes
 --------------------------------------------------------------*/
@@ -3673,8 +3785,10 @@ div.wpcf7-validation-errors{
     .index-company{
         font-size: 65px;
     }
+    .contact-from input{
+        padding: 8px 15px;
+    }
 }
-
 /* Smaller than standard 1139 (devices and browsers) */
 @media only screen and (max-width:1440px){
     #featured-slider .overlay-disabled .cycle-caption{
@@ -3683,22 +3797,26 @@ div.wpcf7-validation-errors{
     #main-slider h3 a{
         font-size: 50px;
     }
-    .blk{
+   /* .blk{
         font-size: 50px;
-    }
+    }*/
     .main-navigation ul li a{
-        padding: 22px 18px;
+        padding: 5px 18px;
+        /*margin: 17px 0;*/
     }
     .locale-en_US .main-navigation ul li a{
-        padding: 22px 10px;
+        padding: 5px 10px;
+        /*margin: 17px 0;*/
     }
     .service-block-inner > a{
         margin-right: 30px;
         width: 65px;
         height: 76px;
     }
+    .recent-posts-meta{
+        padding: 5px 20px 10px 10px;
+    }
 }
-
 /* Smaller than standard 1139 (devices and browsers) */
 @media only screen and (max-width:1300px) {
     #site-identity .site-title > a{
@@ -3709,10 +3827,10 @@ div.wpcf7-validation-errors{
      }
     .main-navigation ul li a{
         font-size: 15px;
-        padding: 22px 20px;
+        padding: 5px 20px;
     }
     .locale-en_US .main-navigation ul li a{
-        padding: 22px 10px;
+        padding: 5px 10px;
     }
     #quick-icons{
         margin-top: 20px;
@@ -3735,7 +3853,7 @@ div.wpcf7-validation-errors{
         font-size: 18px;
     }
     .blk{
-        font-size: 32px;
+        font-size: 28px;
     }
     .container {
         width: 100%;
@@ -3812,11 +3930,15 @@ div.wpcf7-validation-errors{
         width: 56px;
         height: 65px;
     }
-
+    .recent-posts-meta{
+        padding: 3px 20px 10px 10px;
+    }
 }
-
 /* Smaller than standard 1024 (devices and browsers) */
 @media only screen and (max-width:1023px) {
+    .recent-posts-meta{
+        padding: 1px 5px 10px 5px;
+    }
     h1 {
         font-size: 22px;
     }
@@ -3913,7 +4035,7 @@ div.wpcf7-validation-errors{
         font-size: 29px;
     }
     .main-navigation ul li a{
-        padding: 22px 10px;
+        padding: 5px 10px;
     }
     .panel-grid-cell .widget-title,
     .recent-posts-text-wrap{
@@ -3933,7 +4055,6 @@ div.wpcf7-validation-errors{
         margin-left: 0;
     }
 }
-
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width:900px) {
     .margin-15{
@@ -3982,7 +4103,7 @@ div.wpcf7-validation-errors{
         padding: 4px 0 4px 15px;
         text-align: center;
         float: right;
-        border-left: 1px solid #e4e4e4;
+        /*border-left: 1px solid #e4e4e4;*/
         margin-top: 15px;
     }
     .logged-in #mobile-trigger {
@@ -4042,7 +4163,7 @@ div.wpcf7-validation-errors{
         display: block;
     }
     .header-social-wrapper a{
-        margin-right: 10px;
+        margin-right: 0px;
         font-size: 12px;
         margin-bottom: 12px;
     }
@@ -4068,7 +4189,7 @@ div.wpcf7-validation-errors{
     }
     .site-branding img{
         margin-top: 0;
-        width: 300px;
+        width: 240px;
         height: 40px;
     }
     #site-identity a{
@@ -4099,9 +4220,15 @@ div.wpcf7-validation-errors{
     .sidr ul li.sidr-class-page_item a{
         color: #14928b;
     }
+    .recent-posts-meta{
+        padding: 13px 50px 10px 20px;
+    }
 }
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width:767px) {
+    .recent-posts-meta{
+        padding: 6px 50px 10px 20px;
+    }
     .home .entry-content-wrapper .entry-content{
         margin: -25px 0 0 0;
     }
@@ -4322,6 +4449,12 @@ div.wpcf7-validation-errors{
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:550px) {
+    .blk{
+        font-size: 20px;
+    }
+    .recent-posts-meta{
+        padding: 3px 30px 10px 10px;
+    }
     #main-slider .cycle-caption p {
         display: none;
     }
@@ -4372,10 +4505,47 @@ div.wpcf7-validation-errors{
     .top-addr{
         width: 90%;
     }
-}
+    .header-social-wrapper .widget_polylang li{
+        /*width:30px;*/
+        text-align: right;
+    }
 
+    .header-social-wrapper aside.widget_nav_menu li.current-menu-item a{
+        padding: 5px;
+        margin-right:4px;
+    }
+	
+    .header-social-wrapper .widget{
+        margin-left: 0;
+        padding: 0;
+    }
+    .header-social-wrapper .widget_nav_menu{
+        float:left;
+    }
+    .header-social-wrapper aside.widget_polylang ul,.header-social-wrapper aside ul.menu{
+        margin:0;
+    }
+    /*2017/12/5*/
+    .header-social-wrapper a{
+        margin-bottom: 3px;
+    }
+    .site-branding{
+        margin: 3px auto 0 auto
+    }
+    #mobile-trigger{
+        margin-top: 3px;
+    }
+    /*2017/12/5    end*/
+}
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:479px) {
+    .recent-posts-meta{
+        padding: 0 5px 10px 3px;
+        font-size: 12px;
+    }
+    .clean_corporate_widget_recent_posts .recent-posts-title{
+        line-height:1;
+    }
     .home .entry-content-wrapper .entry-content{
         margin: -15px 0 0 0;
     }
@@ -4554,4 +4724,7 @@ div.wpcf7-validation-errors{
     .link-cantact p{
         font-size: 15px;
     }
+}
+.border-bottom{
+    border-bottom: 1px solid #ccc;
 }

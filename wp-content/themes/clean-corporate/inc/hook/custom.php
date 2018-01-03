@@ -85,11 +85,13 @@ if (!function_exists('clean_corporate_site_branding')) :
             }
             ?>
 
-                <div class="header-social-wrapper">
+<!--            只在web显示搜索框-->
+            <div class="header-social-wrapper">
+                <div class="web-news">
                     <div class="top-search-box"><?php  get_search_form();   ?></div>
+                </div>
                     <?php dynamic_sidebar( 'sidebar-top' ); ?>
-                </div><!-- .header-social-wrapper -->
-            
+            </div><!-- .header-social-wrapper -->
 
             <div id="main-nav">
                 <nav id="site-navigation" class="main-navigation" role="navigation">
