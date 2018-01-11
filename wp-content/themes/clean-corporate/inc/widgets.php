@@ -463,7 +463,7 @@ if ( ! class_exists( 'Clean_Corporate_Latest_News_Widget' ) ) :
 										<div class="latest-news-meta">
 											<ul>
 												<?php if ( false === $params['disable_date'] ) :  ?>
-													<li class="news-date-meta"><span class="latest-news-date"><?php the_time( 'j M Y' ); ?></span></li>
+													<li class="news-date-meta"><span class="latest-news-date"><?php the_time( 'Y' ); ?>-<?php the_time( 'm' ); ?>-<?php the_time( 'j' ); ?></span></li>
 												<?php endif; ?>
 												<?php if ( false === $params['disable_more_text'] ) : ?>
 													<li class="news-read-more"><a href="<?php the_permalink(); ?>"><?php echo esc_html( $params['more_text'] ); ?><span class="screen-reader-text">"<?php the_title(); ?>"</span>
