@@ -2612,6 +2612,7 @@ div.wpcf7 {
 .clean_corporate_widget_latest_news .latest-news-title a {
     color: #666666;
     display: block;
+    line-height: 2;
 }
 .clean_corporate_widget_latest_news .latest-news-thumb {
     overflow: hidden;
