@@ -1938,7 +1938,7 @@ function get_boundary_post( $in_same_term = false, $excluded_terms = '', $start 
  * @param string       $taxonomy       Optional. Taxonomy, if $in_same_term is true. Default 'category'.
  * @return string The link URL of the previous post in relation to the current post.
  */
-function get_previous_post_link( $format = '&laquo; %link', $link = '%title', $in_same_term = false, $excluded_terms = '', $taxonomy = 'category' ) {
+function get_previous_post_link( $format = '&laquo; %link', $link = '%title', $in_same_term = true, $excluded_terms = '', $taxonomy = 'category' ) {
 	return get_adjacent_post_link( $format, $link, $in_same_term, $excluded_terms, true, $taxonomy );
 }
 
@@ -1955,7 +1955,7 @@ function get_previous_post_link( $format = '&laquo; %link', $link = '%title', $i
  * @param array|string $excluded_terms Optional. Array or comma-separated list of excluded term IDs. Default empty.
  * @param string       $taxonomy       Optional. Taxonomy, if $in_same_term is true. Default 'category'.
  */
-function previous_post_link( $format = '&laquo; %link', $link = '%title', $in_same_term = false, $excluded_terms = '', $taxonomy = 'category' ) {
+function previous_post_link( $format = '&laquo; %link', $link = '%title', $in_same_term = true, $excluded_terms = '', $taxonomy = 'category' ) {
 	echo get_previous_post_link( $format, $link, $in_same_term, $excluded_terms, $taxonomy );
 }
 
@@ -1971,7 +1971,7 @@ function previous_post_link( $format = '&laquo; %link', $link = '%title', $in_sa
  * @param string       $taxonomy       Optional. Taxonomy, if $in_same_term is true. Default 'category'.
  * @return string The link URL of the next post in relation to the current post.
  */
-function get_next_post_link( $format = '%link &raquo;', $link = '%title', $in_same_term = false, $excluded_terms = '', $taxonomy = 'category' ) {
+function get_next_post_link( $format = '%link &raquo;', $link = '%title', $in_same_term = true, $excluded_terms = '', $taxonomy = 'category' ) {
 	return get_adjacent_post_link( $format, $link, $in_same_term, $excluded_terms, false, $taxonomy );
 }
 
@@ -2026,7 +2026,8 @@ function get_adjacent_post_link( $format, $link, $in_same_term = false, $exclude
 		$date = mysql2date( get_option( 'date_format' ), $post->post_date );
 		$rel = $previous ? 'prev' : 'next';
 
-		$string = '<a href="' . get_permalink( $post ) . '" rel="'.$rel.'">';
+//		$string = '<a href="' . get_permalink( $post ) . '" rel="'.$rel.'">';
+		$string = '<a href="' . get_permalink( $post ) . '" title="'.$title.'" rel="'.$rel.'">';
 		$inlink = str_replace( '%title', $title, $link );
 		$inlink = str_replace( '%date', $date, $inlink );
 		$inlink = $string . $inlink . '</a>';
