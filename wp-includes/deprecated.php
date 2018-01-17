@@ -132,7 +132,7 @@ function the_category_head( $before = '', $after = '' ) {
  * @param int    $limitprev
  * @param string $excluded_categories
  */
-function previous_post($format='%', $previous='previous post: ', $title='yes', $in_same_cat='no', $limitprev=1, $excluded_categories='') {
+function previous_post($format='%', $previous='previous post: ', $title='yes', $in_same_cat='yes', $limitprev=1, $excluded_categories='') {
 
 	_deprecated_function( __FUNCTION__, '2.0.0', 'previous_post_link()' );
 
@@ -168,7 +168,7 @@ function previous_post($format='%', $previous='previous post: ', $title='yes', $
  * @param int $limitnext
  * @param string $excluded_categories
  */
-function next_post($format='%', $next='next post: ', $title='yes', $in_same_cat='no', $limitnext=1, $excluded_categories='') {
+function next_post($format='%', $next='next post: ', $title='yes', $in_same_cat='yes', $limitnext=1, $excluded_categories='') {
 	_deprecated_function( __FUNCTION__, '2.0.0', 'next_post_link()' );
 
 	if ( empty($in_same_cat) || 'no' == $in_same_cat )
@@ -2694,7 +2694,7 @@ function get_boundary_post_rel_link($title = '%title', $in_same_cat = false, $ex
  * @param bool $in_same_cat Optional. Whether link should be in a same category.
  * @param string $excluded_categories Optional. Excluded categories IDs.
  */
-function start_post_rel_link($title = '%title', $in_same_cat = false, $excluded_categories = '') {
+function start_post_rel_link($title = '%title', $in_same_cat = true, $excluded_categories = '') {
 	_deprecated_function( __FUNCTION__, '3.3.0' );
 
 	echo get_boundary_post_rel_link($title, $in_same_cat, $excluded_categories, true);

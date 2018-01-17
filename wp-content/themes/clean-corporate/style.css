@@ -4447,6 +4447,9 @@ div.wpcf7-validation-errors{
     .widget_contact_widget,.footer-padding-left{
         padding-left: 0;
     }
+    .post-navigation .nav-links > div{
+        width: 100%;
+    }
 }
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width:550px) {

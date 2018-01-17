@@ -18,6 +18,7 @@ get_header(); ?>
 
 			<?php
 			// Previous/next post navigation.
+			/*注释文章上一页下一页*/
 			the_post_navigation( array(
 				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'clean-corporate' ) . '</span> ' .
 					'<span class="screen-reader-text">' . __( 'Next post:', 'clean-corporate' ) . '</span> ' .
