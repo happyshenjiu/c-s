@@ -168,7 +168,7 @@ function previous_post($format='%', $previous='previous post: ', $title='yes', $
  * @param int $limitnext
  * @param string $excluded_categories
  */
-function next_post($format='%', $next='next post: ', $title='yes', $in_same_cat='yes', $limitnext=1, $excluded_categories='') {
+function next_post($format='%', $next='next post: ', $title='yes', $in_same_cat='no', $limitnext=1, $excluded_categories='') {
 	_deprecated_function( __FUNCTION__, '2.0.0', 'next_post_link()' );
 
 	if ( empty($in_same_cat) || 'no' == $in_same_cat )

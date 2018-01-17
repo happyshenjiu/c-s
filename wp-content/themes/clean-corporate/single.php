@@ -16,17 +16,27 @@ get_header(); ?>
 
 			<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
+			<div class="nav-below">
+				<?php
+				previous_post_link( '<div class="nav-previous"><span class="meta-nav">' . __( 'Previous', 'clean-corporate' ) . '</span>%link</div>', '%title', true);
+				?>
+				<?php
+				next_post_link( '<div class="nav-next"><span class="meta-nav">' . __( 'Next', 'clean-corporate' ) . '</span>%link</div>','%title', true);
+				?>
+			</div>
+
+
 			<?php
 			// Previous/next post navigation.
 			/*注释文章上一页下一页*/
-			the_post_navigation( array(
+			/*the_post_navigation( array(
 				'next_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Next', 'clean-corporate' ) . '</span> ' .
 					'<span class="screen-reader-text">' . __( 'Next post:', 'clean-corporate' ) . '</span> ' .
 					'<span class="post-title">%title</span>',
 				'prev_text' => '<span class="meta-nav" aria-hidden="true">' . __( 'Previous', 'clean-corporate' ) . '</span> ' .
 					'<span class="screen-reader-text">' . __( 'Previous post:', 'clean-corporate' ) . '</span> ' .
 					'<span class="post-title">%title</span>',
-			) );
+			) );*/
 			?>
 
 			<?php
