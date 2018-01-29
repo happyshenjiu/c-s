@@ -737,6 +737,14 @@ a.comment-reply-link {
 .post-navigation .nav-links > div  {
     width:46%;
 }
+
+.nav-previous,.nav-next{
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #4fc3dd;
+}
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -4227,6 +4235,13 @@ div.wpcf7-validation-errors{
 }
 /* All Mobile Sizes (devices and browser) */
 @media only screen and (max-width:767px) {
+    .nav-previous,.nav-next{
+        width: 100%;
+        float: none;
+        margin-right: 0;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #4fc3dd;
+    }
     .recent-posts-meta{
         padding: 6px 50px 10px 20px;
     }
